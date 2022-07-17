@@ -40,7 +40,7 @@ const Hero = () => {
                 <div className='absolute flex flex-col py-8 md:min-w-[760px] bottom-[5%]
             mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200
             border border-slate-300 rounded-xl text-center shadow-xl'>
-                    <p>Check out our Community</p>
+                    <p>Check out our Community:</p>
                     <div className='flex justify-between flex-wrap px-4'>
                         <p className='flex px-4 py-2 text-slate-500'><FontAwesomeIcon className="className='h-6 text-blue-500 mr-2" icon={faPeopleGroup} /> Live Discussion</p>
                         <p className='flex px-4 py-2 text-slate-500'><FontAwesomeIcon className="className='h-6 text-blue-500 mr-2" icon={faScaleUnbalanced} /> Current Legal Affairs</p>
