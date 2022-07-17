@@ -29,7 +29,7 @@ const Hero = () => {
                     {/* <FontAwesomeIcon icon={faScaleBalanced} /> */}
                     <p className="text-2xl">Get Justice</p>
                     {/* <FontAwesomeIcon icon={faHammer} /> */}
-                    <p className="py-3 text-5xl md:text-7xl font-bold">Law and Justice aren't always Same</p>
+                    <p className="py-3 text-5xl md:text-7xl font-bold">Law and Justice aren't always the Same</p>
                     {/* <FontAwesomeIcon icon={faBuildingColumns} /> */}
                     <button className="py-3 px-6 my-4 sm:w-[60%]">Get Started</button>
                 </div>
