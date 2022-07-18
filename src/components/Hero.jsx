@@ -5,13 +5,8 @@ import {
 } from '@fortawesome/react-fontawesome'
 
 import {
-    faBook,
-    faScaleBalanced,
-    faHammer,
-    faBuildingColumns,
     faPeopleGroup,
     faScaleUnbalanced,
-    faScaleUnbalancedFlip,
     faComments,
     faPhone
 } from '@fortawesome/free-solid-svg-icons'
