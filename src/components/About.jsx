@@ -12,7 +12,7 @@ const About = () => {
                 <div className='grid md:grid-cols-3 gap-6 px-4 text-center'>
                     <div className='border py-8 rounded-xl shadow-xl'>
                         <p className='text-6xl font-bold text-blue-500 cursor-pointer'>10k</p>
-                        <p className='text-gray-400 mt-2'>Happy Customers</p>
+                        <p className='text-gray-400 mt-2'>Happy Users</p>
                     </div>
                     <div className='border py-8 rounded-xl shadow-xl'>
                         <p className='text-6xl font-bold text-blue-500 cursor-pointer'>24/7</p>
