@@ -1,4 +1,5 @@
 import React from "react";
+import Typed from 'react-typed'
 
 import {
     FontAwesomeIcon
@@ -21,7 +22,14 @@ const Hero = () => {
                     <p className="text-2xl">Think like a Lawyer</p>
                     <p className="text-2xl">Lock the Trial</p>
                     <p className="text-2xl">Get Justice</p>
-                    <p className="py-3 text-5xl md:text-7xl font-bold">Law and Justice aren't always the Same</p>
+                    <p className="py-3 text-5xl md:text-7xl font-bold">Law and Justice
+                    <Typed
+                        className="py-3 text-5xl md:text-7xl font-bold"
+                        strings={[' are always Same!', ' Same?'," aren't always Same."]}
+                        typeSpeed={150}
+                        backSpeed={150}
+                        loop
+                    /></p>
                     <button className="py-3 px-6 my-4 sm:w-[60%]">Get Started</button>
                 </div>
                 <div>
