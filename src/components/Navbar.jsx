@@ -31,18 +31,18 @@ const Navbar = () => {
                     </button>
                     <button className='px-4 py-2'>Sign Up</button>
                 </div>
-                <div className='md:hidden mr-4' onClick={Clicking}>
+                <div className='md:hidden mr-4 cursor-pointer' onClick={Clicking}>
                     {!nav ? <MenuIcon className='w-5' /> : <XIcon className='w-5' />}
 
                 </div>
             </div>
 
             <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
-                <li className='border-b-2 border-zinc-300 w-full'><Link onClick={Closing} to="home" smooth={true} duration={500}>Home</Link></li>
-                <li className='border-b-2 border-zinc-300 w-full'><Link onClick={Closing} to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
-                <li className='border-b-2 border-zinc-300 w-full'><Link onClick={Closing} to="registration" smooth={true} offset={-100} duration={500}>Registration</Link></li>
-                <li className='border-b-2 border-zinc-300 w-full'><Link onClick={Closing} to="posts" smooth={true} offset={-50} duration={500}>Posts</Link></li>
-                <li className='border-b-2 border-zinc-300 w-full'><Link onClick={Closing} to="support" smooth={true} offset={-50} duration={500}>Support</Link></li>
+                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="home" smooth={true} duration={500}>Home</Link></li>
+                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
+                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="registration" smooth={true} offset={-100} duration={500}>Registration</Link></li>
+                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="posts" smooth={true} offset={-50} duration={500}>Posts</Link></li>
+                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="support" smooth={true} offset={-50} duration={500}>Support</Link></li>
 
                 <div className='flex flex-col my-4'>
                     <button className='bg-transparent text-blue-500 px-8 py-3 mb-4'>Sign In</button>
