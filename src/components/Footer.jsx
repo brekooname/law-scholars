@@ -8,6 +8,10 @@ import {
     faFacebook,
     faTwitter,
     faInstagram,
+    faDiscord,
+    faReddit,
+    faYoutube,
+    faLinkedin,
 } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
@@ -69,6 +73,10 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faFacebook} className="cursor-pointer" />
                     <FontAwesomeIcon icon={faInstagram} className="cursor-pointer" />
                     <FontAwesomeIcon icon={faTwitter} className="cursor-pointer" />
+                    <FontAwesomeIcon icon={faLinkedin} className="cursor-pointer" />
+                    <FontAwesomeIcon icon={faDiscord} className="cursor-pointer" />
+                    <FontAwesomeIcon icon={faReddit} className="cursor-pointer" />
+                    <FontAwesomeIcon icon={faYoutube} className="cursor-pointer" />
                 </div>
             </div>
         </div>
