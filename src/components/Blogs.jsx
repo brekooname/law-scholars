@@ -33,8 +33,8 @@ const Blogs = () => {
                                 Court Room
                             </div>
                             <p className="text-gray-500 mb-6 text-sm">
-                                Published on <u>19.07.2022</u> by
-                                <a href="#!"> Eva Dennis</a>
+                                Published on <u className="text-black font-bold">19.07.2022</u> by
+                                <a href="#!" className="text-blue-500 font-bold"> Eva Dennis</a>
                             </p>
                             <p className="text-gray-500 mb-6">
                                 Ut pretium ultricies dignissim. Sed sit amet mi eget urna placerat vulputate. Ut
@@ -72,8 +72,8 @@ const Blogs = () => {
                                 Riots
                             </div>
                             <p className="text-gray-500 mb-6 text-sm">
-                                Published on <u>20.07.2022</u> by
-                                <a href="#!"> Joe Svan</a>
+                                Published on <u className="text-black font-bold">20.07.2022</u> by
+                                <a href="#!" className="text-blue-500 font-bold"> Joe Svan</a>
                             </p>
                             <p className="text-gray-500">
                                 Duis sagittis, turpis in ullamcorper venenatis, ligula nibh porta dui, sit amet rutrum
@@ -112,8 +112,8 @@ const Blogs = () => {
                                 Library
                             </div>
                             <p className="text-gray-500 mb-6 text-sm">
-                                Published on <u>18.07.2022</u> by
-                                <a href="#!"> Rupam Nag</a>
+                                Published on <u className="text-black font-bold">18.07.2022</u> by
+                                <a href="#!" className="text-blue-500 font-bold"> Rupam Nag</a>
                             </p>
                             <p className="text-gray-500">
                                 Sed sollicitudin purus sed nulla dignissim ullamcorper. Aenean tincidunt vulputate
