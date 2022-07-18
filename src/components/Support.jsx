@@ -31,7 +31,7 @@ const Support = () => {
                     <div className='bg-white rounded-xl shadow-2xl'>
                         <div className='p-8'>
                             <FontAwesomeIcon className="w-4 p-4 bg-blue-500 text-white rounded-lg mt-[-1rem]" icon={faPhoneSquare} />
-                            <h3 className='font-bold text-2xl my-6'>Sales</h3>
+                            <h3 className='font-bold text-2xl my-6'>Consultancy</h3>
                             <p className='text-gray-600 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident iure placeat blanditiis ea sint earum hic iste quibusdam exercitationem.</p>
                         </div>
                         <div className='bg-slate-100 pl-8 py-4'>
