@@ -12,12 +12,12 @@ const Blogs = () => {
                     <div className="flex flex-wrap mb-12">
                         <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 lg:pr-6 mb-6 lg:mb-0">
                             <div className="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg"
-                                style={{"background-position": "50%"}} data-mdb-ripple="true" data-mdb-ripple-color="light">
+                                style={{ "background-position": "50%" }} data-mdb-ripple="true" data-mdb-ripple-color="light">
                                 <img src="https://images.unsplash.com/photo-1611849541496-13319adb4d00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" className="w-full" alt="Louvre" />
                                 <a href="#!">
                                     <div
                                         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-                                        style={{"background-color": "rgba(251, 251, 251, 0.2)"}}></div>
+                                        style={{ "background-color": "rgba(251, 251, 251, 0.2)" }}></div>
                                 </a>
                             </div>
                         </div>
@@ -37,13 +37,10 @@ const Blogs = () => {
                                 <a href="#!" className="text-blue-500 font-bold"> Eva Dennis</a>
                             </p>
                             <p className="text-gray-500 mb-6">
-                                Ut pretium ultricies dignissim. Sed sit amet mi eget urna placerat vulputate. Ut
-                                vulputate est non quam dignissim elementum. Donec a ullamcorper diam.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorem, modi ipsam qui iure at deserunt voluptatibus id necessitatibus tempora nostrum rerum rem saepe. Saepe.
                             </p>
                             <p className="text-gray-500">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quae nulla saepe rerum
-                                aspernatur odio amet perferendis tempora mollitia? Ratione unde magni omnis quaerat
-                                blanditiis cumque dolore placeat rem dignissimos?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quo, est commodi laborum tenetur voluptate. Eaque, repudiandae quos ullam vero est, magni iure consequuntur perspiciatis ipsa assumenda, perferendis aut numquam? Cumque aliquam ab placeat consectetur?
                             </p>
                         </div>
                     </div>
@@ -51,12 +48,12 @@ const Blogs = () => {
                     <div className="flex flex-wrap lg:flex-row-reverse mb-12">
                         <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 lg:pl-6 mb-6 lg:mb-0">
                             <div className="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg"
-                                style={{"background-position": "50%"}} data-mdb-ripple="true" data-mdb-ripple-color="light">
+                                style={{ "background-position": "50%" }} data-mdb-ripple="true" data-mdb-ripple-color="light">
                                 <img src="https://images.unsplash.com/photo-1616990632575-59f35f0e2cd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" className="w-full" alt="Louvre" />
                                 <a href="#!">
                                     <div
                                         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-                                        style={{"background-color": "rgba(251, 251, 251, 0.2)"}}></div>
+                                        style={{ "background-color": "rgba(251, 251, 251, 0.2)" }}></div>
                                 </a>
                             </div>
                         </div>
@@ -76,14 +73,7 @@ const Blogs = () => {
                                 <a href="#!" className="text-blue-500 font-bold"> Joe Svan</a>
                             </p>
                             <p className="text-gray-500">
-                                Duis sagittis, turpis in ullamcorper venenatis, ligula nibh porta dui, sit amet rutrum
-                                enim massa in ante. Curabitur in justo at lorem laoreet ultricies. Nunc ligula felis,
-                                sagittis eget nisi vitae, sodales vestibulum purus. Vestibulum nibh ipsum, rhoncus vel
-                                sagittis nec, placerat vel justo. Duis faucibus sapien eget tortor finibus, a eleifend
-                                lectus dictum. Cras tempor convallis magna id rhoncus. Suspendisse potenti. Nam mattis
-                                faucibus imperdiet. Proin tempor lorem at neque tempus aliquet. Phasellus at ex
-                                volutpat, varius arcu id, aliquam lectus. Vestibulum mattis felis quis ex pharetra
-                                luctus. Etiam luctus sagittis massa, sed iaculis est vehicula ut.
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus facere eius eos est sit dolorem et aperiam a explicabo nam voluptas earum nihil odit provident magni excepturi, ut expedita porro aspernatur quae minus reiciendis error nulla reprehenderit? Veniam, placeat quisquam nihil, laudantium eum eos perspiciatis quaerat deleniti pariatur recusandae praesentium possimus explicabo voluptatum, natus necessitatibus adipisci consectetur! Recusandae, quas. Optio illum rem magnam aliquid corporis iusto accusamus sit in perferendis voluptatibus eligendi aut doloribus saepe, earum non obcaecati facere distinctio libero ut at? Et rem blanditiis rerum amet iste est vitae perferendis nihil, minima autem suscipit, aperiam maxime, quasi accusamus.
                             </p>
                         </div>
                     </div>
@@ -91,12 +81,12 @@ const Blogs = () => {
                     <div className="flex flex-wrap">
                         <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 lg:pr-6 mb-6 lg:mb-0">
                             <div className="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg"
-                                style={{"background-position": "50%"}} data-mdb-ripple="true" data-mdb-ripple-color="light">
+                                style={{ "background-position": "50%" }} data-mdb-ripple="true" data-mdb-ripple-color="light">
                                 <img src="https://images.unsplash.com/photo-1505663912202-ac22d4cb3707?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" className="w-full" alt="Louvre" />
                                 <a href="#!">
                                     <div
                                         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
-                                        style={{"background-color": "rgba(251, 251, 251, 0.2)"}}></div>
+                                        style={{ "background-color": "rgba(251, 251, 251, 0.2)" }}></div>
                                 </a>
                             </div>
                         </div>
@@ -116,17 +106,8 @@ const Blogs = () => {
                                 <a href="#!" className="text-blue-500 font-bold"> Rupam Nag</a>
                             </p>
                             <p className="text-gray-500">
-                                Sed sollicitudin purus sed nulla dignissim ullamcorper. Aenean tincidunt vulputate
-                                libero, nec imperdiet sapien pulvinar id. Nullam scelerisque odio vel lacus faucibus,
-                                tincidunt feugiat augue ornare. Proin ac dui vel lectus eleifend vestibulum et
-                                lobortis risus. Nullam in commodo sapien. Curabitur ut erat congue sem finibus
-                                eleifend egestas eu metus. Sed ut dolor id magna rutrum ultrices ut eget libero. Duis
-                                vel porttitor odio. Ut pulvinar sed turpis ornare tincidunt. Donec luctus, mi euismod
-                                dignissim malesuada, lacus lorem commodo leo, tristique blandit ante mi id metus.
-                                Integer et vehicula leo, vitae interdum lectus. Praesent nulla purus, commodo at
-                                euismod nec, blandit ultrices erat. Aliquam eros ipsum, interdum et mattis vitae,
-                                faucibus vitae justo. Nulla condimentum hendrerit leo, in feugiat ipsum condimentum
-                                ac. Maecenas sed blandit dolor.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dicta soluta sit accusamus molestias placeat culpa, alias vitae atque? Dignissimos minus exercitationem beatae velit repellendus obcaecati nam. Est perspiciatis earum numquam et autem laudantium sed doloremque saepe soluta temporibus dicta, vitae nam similique. Blanditiis illo temporibus iusto, in quae porro dignissimos voluptatibus non eos corrupti magni reiciendis consequatur error delectus dolorum amet ducimus labore aliquid. Doloribus adipisci quas perferendis doloremque laboriosam sapiente alias nulla in? <br />
+                                <br />Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum quam vero dolor at corporis, deserunt, assumenda doloremque, inventore iure ab cupiditate officiis velit reprehenderit. Magnam consequatur amet labore ducimus nam.
                             </p>
                         </div>
                     </div>
