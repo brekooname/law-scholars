@@ -21,7 +21,7 @@ const Navbar = () => {
                         <li className="cursor-pointer"><Link to="home" smooth={true} duration={500}>Home</Link></li>
                         <li className="cursor-pointer"><Link to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
                         <li className="cursor-pointer"><Link to="registration" smooth={true} offset={-100} duration={500}>Registration</Link></li>
-                        <li className="cursor-pointer"><Link to="posts" smooth={true} offset={-50} duration={500}>Posts</Link></li>
+                        <li className="cursor-pointer"><Link to="blog" smooth={true} offset={-50} duration={500}>Blog</Link></li>
                         <li className="cursor-pointer"><Link to="support" smooth={true} offset={-50} duration={500}>Support</Link></li>
                     </ul>
                 </div>
@@ -47,7 +47,7 @@ const Navbar = () => {
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="home" smooth={true} duration={500}>Home</Link></li>
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="registration" smooth={true} offset={-100} duration={500}>Registration</Link></li>
-                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="posts" smooth={true} offset={-50} duration={500}>Posts</Link></li>
+                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="blog" smooth={true} offset={-50} duration={500}>Blog</Link></li>
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="support" smooth={true} offset={-50} duration={500}>Support</Link></li>
 
                 <div className='flex flex-col my-4'>
