@@ -30,7 +30,7 @@ const Hero = () => {
                         backSpeed={150}
                         loop
                     /></p>
-                    <button className="py-3 px-6 my-4 sm:w-[60%]">Get Started</button>
+                    {/* <button className="py-3 px-6 my-4 sm:w-[60%]">Get Started</button> */}
                 </div>
                 <div>
                      <img className="w-full rounded-lg" src={bgImg} alt="https://unsplash.com" />
