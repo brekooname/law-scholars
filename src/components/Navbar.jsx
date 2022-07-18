@@ -3,7 +3,7 @@ import { Link, animateScroll as scroll, } from 'react-scroll'
 
 import { MenuIcon, XIcon } from '@heroicons/react/solid'
 
-import logo from '../assets/logo.jpg'
+import logo from '../assets/new-law-scholars.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className='w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg'>
             <div className='px-2 flex justify-between items-center w-full h-full'>
                 <div className='flex items-center'>
-                    <img src={logo} alt="Law Scholar's Logo" className="h-14 mr-4 ml-4" />
+                    <img src={logo} alt="Law Scholar's Logo" className="h-20 mr-4 ml-4" />
                     {/* <h1 className='text-3xl font-bold mr-4 sm:text-4xl'>Law Scholars</h1> */}
                     <ul className='hidden md:flex'>
                         <li className="cursor-pointer"><Link to="home" smooth={true} duration={500}>Home</Link></li>
