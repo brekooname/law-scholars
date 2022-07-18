@@ -25,7 +25,7 @@ const Hero = () => {
                     <p className="py-3 text-5xl md:text-7xl font-bold">Law and Justice<br />
                     <Typed
                         className="py-3 text-5xl md:text-7xl font-bold"
-                        strings={['" "are always Same!', '" "Same?',"' 'aren't always Same."]}
+                        strings={[' are always Same!', ' Same?'," aren't always Same."]}
                         typeSpeed={150}
                         backSpeed={150}
                         loop
