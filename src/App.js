@@ -2,7 +2,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Registration from "./components/Registration";
-import Posts from "./components/Posts";
+import Blogs from "./components/Blogs";
 import Support from "./components/Support";
 import Footer from "./components/Footer";
 
@@ -13,7 +13,7 @@ function App() {
       <Hero/>
       <About/>
       {/* <Registration/> */}
-      {/* <Posts/> */}
+      <Blogs/>
       <Support/>
       <Footer/>
     </>
