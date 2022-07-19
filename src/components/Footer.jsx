@@ -21,40 +21,40 @@ const Footer = () => {
                 <div>
                     <h6 className='font-bold uppercase pt-2'>Solutions</h6>
                     <ul>
-                        <li className='py-1 cursor-pointer'>Marketing</li>
-                        <li className='py-1 cursor-pointer'>Analytics</li>
-                        <li className='py-1 cursor-pointer'>Commerce</li>
-                        <li className='py-1 cursor-pointer'>Data</li>
-                        <li className='py-1 cursor-pointer'>Cloud</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Marketing</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Analytics</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Commerce</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Data</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Cloud</li>
                     </ul>
                 </div>
                 <div>
                     <h6 className='font-bold uppercase pt-2'>Support</h6>
                     <ul>                        
-                        <li className='py-1 cursor-pointer'>Documentation</li>
-                        <li className='py-1 cursor-pointer'>Call</li>
-                        <li className='py-1 cursor-pointer'>Guides</li>
-                        <li className='py-1 cursor-pointer'>API Status</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Documentation</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Call</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Guides</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>API Status</li>
                     </ul>
                 </div>
                 <div>
                     <h6 className='font-bold uppercase pt-2'>Company</h6>
                     <ul>
-                        <li className='py-1 cursor-pointer'>About</li>
-                        <li className='py-1 cursor-pointer'>Blog</li>
-                        <li className='py-1 cursor-pointer'>Jobs</li>
-                        <li className='py-1 cursor-pointer'>Press</li>
-                        <li className='py-1 cursor-pointer'>Partners</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>About</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Blog</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Jobs</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Press</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Partners</li>
                     </ul>
                 </div>
                 <div>
                     <h6 className='font-bold uppercase pt-2'>Legal</h6>
                     <ul>
-                        <li className='py-1 cursor-pointer'>Claims</li>
-                        <li className='py-1 cursor-pointer'>Privacy</li>
-                        <li className='py-1 cursor-pointer'>Terms</li>
-                        <li className='py-1 cursor-pointer'>Policies</li>
-                        <li className='py-1 cursor-pointer'>Conditions</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Claims</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Privacy</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Terms</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Policies</li>
+                        <li className='py-1 cursor-pointer hover:text-blue-400'>Conditions</li>
                     </ul>
                 </div>
                 <div className='col-span-2 pt-8 md:pt-2'>
@@ -70,13 +70,13 @@ const Footer = () => {
             <div className='flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500'>
                 <p className='py-4'>Made with 💙 by <a href="https://github.com/ShlokBharadwaj" target="_blank" className='text-blue-500'>ShlokBharadwaj</a></p>
                 <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
-                    <FontAwesomeIcon icon={faFacebook} className="cursor-pointer" />
-                    <FontAwesomeIcon icon={faInstagram} className="cursor-pointer" />
-                    <FontAwesomeIcon icon={faTwitter} className="cursor-pointer" />
-                    <FontAwesomeIcon icon={faLinkedin} className="cursor-pointer" />
-                    <FontAwesomeIcon icon={faDiscord} className="cursor-pointer" />
-                    <FontAwesomeIcon icon={faReddit} className="cursor-pointer" />
-                    <FontAwesomeIcon icon={faYoutube} className="cursor-pointer" />
+                    <FontAwesomeIcon icon={faFacebook} className="cursor-pointer hover:text-blue-400" />
+                    <FontAwesomeIcon icon={faInstagram} className="cursor-pointer hover:text-red-400" />
+                    <FontAwesomeIcon icon={faTwitter} className="cursor-pointer hover:text-blue-400" />
+                    <FontAwesomeIcon icon={faLinkedin} className="cursor-pointer hover:text-blue-500" />
+                    <FontAwesomeIcon icon={faDiscord} className="cursor-pointer hover:text-indigo-500" />
+                    <FontAwesomeIcon icon={faReddit} className="cursor-pointer  hover:text-red-600" />
+                    <FontAwesomeIcon icon={faYoutube} className="cursor-pointer  hover:text-red-700" />
                 </div>
             </div>
         </div>
