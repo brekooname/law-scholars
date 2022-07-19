@@ -5,6 +5,8 @@ import Registration from "./components/Registration";
 import Blogs from "./components/Blogs";
 import Support from "./components/Support";
 import Footer from "./components/Footer";
+import {Routes, Route} from "react-router-dom";
+import LoginSignup from "./components/LoginSignup";
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
       <Blogs/>
       <Support/>
       <Footer/>
+      <Routes>
+         <Route path="/LoginSignup" element={<LoginSignup/>} />
+      </Routes>
     </>
   );
 }
