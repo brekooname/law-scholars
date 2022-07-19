@@ -12,7 +12,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <About/>
-      {/* <Registration/> */}
+      <Registration/>
       <Blogs/>
       <Support/>
       <Footer/>
