@@ -13,7 +13,7 @@ const Blogs = () => {
                         <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 lg:pr-6 mb-6 lg:mb-0">
                             <div className="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg"
                                 style={{ "background-position": "50%" }} data-mdb-ripple="true" data-mdb-ripple-color="light">
-                                <img src="https://images.unsplash.com/photo-1611849541496-13319adb4d00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" className="w-full" alt="Louvre" />
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Anti-government_protest_in_Sri_Lanka_2022.jpg/450px-Anti-government_protest_in_Sri_Lanka_2022.jpg" className="w-full" alt="Louvre" />
                                 <a href="#!">
                                     <div
                                         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
@@ -23,7 +23,7 @@ const Blogs = () => {
                         </div>
 
                         <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 lg:pl-6">
-                            <h3 className="text-2xl font-bold mb-4">That's the news!</h3>
+                            <h3 className="text-2xl font-bold mb-4">Sri Lanka’s Hambantota Headache</h3>
                             <div className="text-red-600 text-sm mb-4 flex items-center font-medium">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" className="w-4 h-4 mr-2">
                                     {/* <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --> */}
@@ -37,10 +37,13 @@ const Blogs = () => {
                                 <a href="#!" className="text-blue-500 font-bold"> Eva Dennis</a>
                             </p>
                             <p className="text-gray-500 mb-6">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorem, modi ipsam qui iure at deserunt voluptatibus id necessitatibus tempora nostrum rerum rem saepe. Saepe.
+                                Hambantota sea port project has proved to be a costly affair for cash strapped Sri Lanka.
+                                Built by china, Hambantota port has landed colombo in a dragon debt trap. The port has proved to commercially “unviable” for Sri Lanka with little hope of traffic in future.
+                                Country is repaying loans to China as port fails to make any profit. It was restructured in 2016 aftr losses, but it is yet to yield results. Sri Lanka is still repaying the debt despite handing it over to China.
                             </p>
                             <p className="text-gray-500">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quo, est commodi laborum tenetur voluptate. Eaque, repudiandae quos ullam vero est, magni iure consequuntur perspiciatis ipsa assumenda, perferendis aut numquam? Cumque aliquam ab placeat consectetur?
+                                Chinese govt. financed 85% of total cost for phase one while Sri Lanka ports Authority Bore the rest. The loan agreement allowed China habour engineering & China merchants port to jointly operate the terminal & take a 65% stake in the part for 35 years. After 35 years, the ownership had to be refunded to Sri Lanka Ports Authority.
+                                But due to heavy losses Sri Lanka gave it to China for 99 years.
                             </p>
                         </div>
                     </div>
