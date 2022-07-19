@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className='w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg'>
             <div className='px-2 flex justify-between items-center w-full h-full'>
                 <div className='flex items-center'>
-                <Link to="home" smooth={true} duration={500}><img src={logo} alt="Law Scholar's Logo" className="h-20 mr-4 ml-4 cursor-pointer" /></Link>
+                    <Link to="home" smooth={true} duration={500}><img src={logo} alt="Law Scholar's Logo" className="h-20 mr-4 ml-4 cursor-pointer" /></Link>
                     {/* <h1 className='text-3xl font-bold mr-4 sm:text-4xl'>Law Scholars</h1> */}
                     <ul className='hidden md:flex'>
                         <li className="cursor-pointer"><Link to="home" smooth={true} duration={500}>Home</Link></li>
@@ -28,14 +28,16 @@ const Navbar = () => {
 
                 <div className="hidden md:flex relative bg-zinc-300 p-2 rounded-md border-2 border-zinc-200 m-2">
                     <svg class="w-5 h-5 left-1 absolute ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-                    <input type="text" placeholder="Search..." className="ml-6 bg-transparent focus:outline-none"/>
+                    <input type="text" placeholder="Search..." className="ml-6 bg-transparent focus:outline-none" />
                 </div>
-                
+
                 <div className='hidden md:flex pr-4'>
-                    <button className='px-4 py-2 border-none bg-transparent text-black mr-4'>
-                        Sign In
-                    </button>
-                    <button className='px-4 py-2'>Sign Up</button>
+                    <a href="/LoginSignup">
+                        <button className='px-4 py-2 border-none bg-transparent text-black mr-4'>
+                            Sign In
+                        </button>
+                        <button className='px-4 py-2'>Sign Up</button>
+                    </a>
                 </div>
                 <div className='md:hidden mr-4 cursor-pointer' onClick={Clicking}>
                     {!nav ? <MenuIcon className='w-8' /> : <XIcon className='w-8' />}
