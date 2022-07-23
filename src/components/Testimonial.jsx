@@ -48,7 +48,7 @@ const Testimonial = () => {
                             </div>
                         </div>
                         <div className="flex flex-col items-center justify-center mt-10">
-                            <img src="https://i.ibb.co/ZgF5Zzz/avatar-1.png" alt="profile pictre" className="w-12 h-12" />
+                            <img src="https://source.unsplash.com/random/?portrait" alt="profile pictre" className="w-12 h-12 rounded-full" />
                             <p className="text-base font-semibold leading-4 my-2 text-gray-800">Tomy Vercetti</p>
                             <p className="text-base leading-4 text-center text-gray-600">Designer</p>
                         </div>
@@ -95,7 +95,7 @@ const Testimonial = () => {
                             </div>
                         </div>
                         <div className="flex flex-col items-center justify-center mt-10">
-                            <img src="https://i.ibb.co/8BLjmqz/avatar-2.png" alt="profile pictre" className="w-12 h-12" />
+                        <img src="https://source.unsplash.com/random/?women" alt="profile pictre" className="w-12 h-12 rounded-full" />
                             <p className="text-base font-semibold leading-4 my-2 text-gray-800">Lisa Styles</p>
                             <p className="text-base leading-4 text-center text-gray-600">Student</p>
                         </div>
@@ -142,7 +142,7 @@ const Testimonial = () => {
                             </div>
                         </div>
                         <div className="flex flex-col items-center justify-center mt-10">
-                            <img src="https://i.ibb.co/y0KCX7p/avatar-3.png" alt="profile pictre" className="w-12 h-12" />
+                        <img src="https://source.unsplash.com/random/?man" alt="profile pictre" className="w-12 h-12 rounded-full" />
                             <p className="text-base font-semibold leading-4 my-2 text-gray-800">Liam Ho</p>
                             <p className="text-base leading-4 text-center text-gray-600">Developer</p>
                         </div>
