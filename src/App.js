@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import {Routes, Route} from "react-router-dom";
 import LoginSignup from "./components/LoginSignup";
 import Testimonial from "./components/Testimonial";
+import LiveChat from "./components/LiveChat";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About/>
       <Registration/>
       <Blogs/>
+      <LiveChat/>
       <Testimonial/>
       <Support/>
       <Footer/>
