@@ -7,7 +7,6 @@ import Support from "./components/Support";
 import Footer from "./components/Footer";
 import {Routes, Route} from "react-router-dom";
 import LoginSignup from "./components/LoginSignup";
-import DarkModeToggle from "./components/DarkModeToggle";
 import Testimonial from "./components/Testimonial";
 
 function App() {
