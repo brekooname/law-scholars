@@ -2,8 +2,8 @@ import React from "react";
 
 const Blogs = () => {
     return (
-        <div name="blogs" className='container my-24 px-6 mx-auto py-1'>
-            <div className="container my-24 px-6 mx-auto">
+        <div name="blogs" className='container my-24 mx-auto py-1 w-full'>
+            <div className="container my-24">
 
                 <section className="mb-32 text-gray-800">
                     <h2 className="mb-12 text-center text-5xl font-bold">Latest Blogs</h2>
