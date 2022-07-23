@@ -1,80 +1,153 @@
 import React from "react";
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
-import "pure-react-carousel/dist/react-carousel.es.css";
-/* Install pure-react-carousel using -> npm i pure-react-carousel */
+
 const Testimonial = () => {
     return (
-        <div name='testimonial' className='w-full'>
-           <h2 className='text-5xl font-bold justify-center text-center my-10'>Testimonials</h2>
-            <div className="flex items-center justify-between h-full w-full absolute z-0">
-                <div className="w-1/3 bg-white h-full" />
-                <div className="w-4/6 ml-16 bg-gray-100 h-full" />
-            </div>
-            <div className="xl:px-20 px-8 py-20 2xl:mx-auto 2xl:container relative z-40">
-                <CarouselProvider naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={2}>
-                    <h1 className="text-5xl font-bold xl:block hidden leading-tight text-gray-800">
-                        What our customers are
-                        <br />
-                        saying
-                    </h1>
-                    <h1 className="text-5xl font-bold xl:hidden block leading-tight lg:leading-10 text-gray-800">What our customers are saying</h1>
-                    <Slider>
-                        <Slide index={0} tabIndex="null">
-                            <div className="flex">
-                                <div className="mt-14 md:flex">
-                                    <div className="relative lg:w-1/2 sm:w-96 xl:h-96 h-80">
-                                        <img src="https://i.ibb.co/4g1D9cv/imgslider1.png" alt="image of profile" className="w-full h-full flex-shrink-0 object-fit object-cover shadow-lg rounded" />
-                                        <div className="w-32 md:flex hidden items-center justify-center absolute top-0 -mr-16 -mt-14 right-0 h-32 bg-indigo-100 rounded-full">
-                                            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonial-svg1.svg" alt="commas" />
-                                        </div>
-                                    </div>
-                                    <div className="md:w-1/3 lg:w-1/3 xl:ml-32 md:ml-20 md:mt-0 mt-4 flex flex-col justify-between">
-                                        <div>
-                                            <h1 className="text-2xl font-semibold xl:leading-loose text-gray-800">Some of the best work that was done!</h1>
-                                            <p className="text-base font-medium leading-6 mt-4 text-gray-600">Our core values are at the heart of all that we do. They are integrated into our daily work lives and help us to remember our customers always comes first, the last thank you should always comes from us.</p>
-                                        </div>
-                                        <div className="md:mt-0 mt-8">
-                                            <p className="text-base font-medium leading-4 text-gray-800">Anna Smith</p>
-                                            <p className="text-base leading-4 mt-2 mb-4 text-gray-600">Senior Web Designer</p>
-                                        </div>
-                                    </div>
-                                </div>
+        <div name='testimonial' className='w-full mt-2 py-20'>
+           <h2 className="text-5xl font-bold leading-10 text-gray-800 text-center px-4">Testimonials</h2>
+                <h1 className="lg:text-2xl md:text-4xl text-2xl px-4 leading-10 text-gray-800 mt-6 text-center">What our client says</h1>
+                <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:px-20 px-10 py-20 gap-6">
+                    <div>
+                        <div className="group w-full bg-white relative flex flex-col items-center hover:bg-blue-500 cursor-pointer shadow-md md:p-12 p-6">
+                            <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
+                                <svg width={26} height={27} viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clipPath="url(#clip0)">
+                                        <path d="M25.2578 14.3309H19.2969C19.3988 9.55819 20.6309 9.01642 22.1785 8.86178L22.7753 8.78051V3.53242L22.0874 3.57292C20.0666 3.69783 17.8323 4.09805 16.3417 6.11965C15.035 7.89183 14.459 10.7871 14.459 15.2316V23.4673H25.2578V14.3309Z" fill="currentColor" />
+                                        <path d="M11.48 23.4673V14.3309H5.59859C5.70049 9.55819 6.89283 9.01642 8.44042 8.86178L8.99749 8.78051V3.53242L8.34931 3.57292C6.32844 3.69783 4.07421 4.09805 2.5836 6.11965C1.27707 7.89183 0.681147 10.7871 0.681147 15.2316V23.4673H11.48Z" fill="currentColor" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0">
+                                            <rect width="24.5767" height={27} fill="white" transform="translate(25.2578 27) rotate(-180)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <p className="xl:w-80 text-base leading-normal text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi adipisci libero iste cupiditate impedit sapiente nihil necessitatibus in doloribus temporibus?</p>
                             </div>
-                        </Slide>
-                        <Slide index={1}>
-                            <div className="flex relative" style={{ transform: 'translateX(0%)' }}>
-                                <div className="mt-14 md:flex">
-                                    <div className="relative lg:w-1/2 sm:w-96 xl:h-96 h-80">
-                                        <img src="https://i.ibb.co/4g1D9cv/imgslider1.png" alt="image of profile" className="w-full h-full flex-shrink-0 object-fit object-cover shadow-lg rounded" />
-                                        <div className="w-32 md:flex hidden items-center justify-center absolute top-0 -mr-16 -mt-14 right-0 h-32 bg-indigo-100 rounded-full">
-                                            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonial-svg1.svg" alt="commas" />
-                                        </div>
-                                    </div>
-                                    <div className="md:w-1/3 lg:w-1/3 xl:ml-32 md:ml-20 md:mt-0 mt-4 flex flex-col justify-between">
-                                        <div>
-                                            <h1 className="text-2xl font-semibold xl:leading-loose text-gray-800">Some of the best work that was done!</h1>
-                                            <p className="text-base font-medium leading-6 mt-4 text-gray-600">Our core values are at the heart of all that we do. They are integrated into our daily work lives and help us to remember our customers always comes first, the last thank you should always comes from us.</p>
-                                        </div>
-                                        <div className="md:mt-0 mt-8">
-                                            <p className="text-base font-medium leading-4 text-gray-800">Anna Smith</p>
-                                            <p className="text-base leading-4 mt-2 mb-4 text-gray-600">Senior Web Designer</p>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div className="text-white group-hover:text-blue-500 absolute bottom-0 -mb-6">
+                                <svg width={34} height={28} viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_dd)">
+                                        <path d="M17 19L28.2583 3.25H5.74167L17 19Z" fill="currentColor" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_dd" x="0.741699" y="0.25" width="32.5167" height="27.75" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                                            <feFlood floodOpacity={0} result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                            <feMorphology radius={1} operator="erode" in="SourceAlpha" result="effect1_dropShadow" />
+                                            <feOffset dy={4} />
+                                            <feGaussianBlur stdDeviation={3} />
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                            <feOffset dy={2} />
+                                            <feGaussianBlur stdDeviation="2.5" />
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0" />
+                                            <feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
                             </div>
-                        </Slide>
-                    </Slider>
-                    <div className="flex items-center mt-8">
-                        <ButtonBack className="cursor-pointer " role="button" aria-label="previous slide">
-                            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonal-svg2.svg" alt="previous" />
-                        </ButtonBack>
-
-                        <ButtonNext role="button" aria-label="next slide" className="cursor-pointer ml-2">
-                            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonial-svg3.svg" alt="next" />
-                        </ButtonNext>
+                        </div>
+                        <div className="flex flex-col items-center justify-center mt-10">
+                            <img src="https://i.ibb.co/ZgF5Zzz/avatar-1.png" alt="profile pictre" className="w-12 h-12" />
+                            <p className="text-base font-semibold leading-4 my-2 text-gray-800">Tomy Vercetti</p>
+                            <p className="text-base leading-4 text-center text-gray-600">Designer</p>
+                        </div>
                     </div>
-                </CarouselProvider>
-            </div>
+                    <div>
+                        <div className="group w-full bg-white relative flex flex-col items-center hover:bg-blue-500 cursor-pointer shadow-md md:p-12 p-6">
+                            <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
+                                <svg width={26} height={27} viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clipPath="url(#clip0)">
+                                        <path d="M25.2578 14.3309H19.2969C19.3988 9.55819 20.6309 9.01642 22.1785 8.86178L22.7753 8.78051V3.53242L22.0874 3.57292C20.0666 3.69783 17.8323 4.09805 16.3417 6.11965C15.035 7.89183 14.459 10.7871 14.459 15.2316V23.4673H25.2578V14.3309Z" fill="currentColor" />
+                                        <path d="M11.48 23.4673V14.3309H5.59859C5.70049 9.55819 6.89283 9.01642 8.44042 8.86178L8.99749 8.78051V3.53242L8.34931 3.57292C6.32844 3.69783 4.07421 4.09805 2.5836 6.11965C1.27707 7.89183 0.681147 10.7871 0.681147 15.2316V23.4673H11.48Z" fill="currentColor" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0">
+                                            <rect width="24.5767" height={27} fill="white" transform="translate(25.2578 27) rotate(-180)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <p className="xl:w-80 text-base leading-normal text-center mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam assumenda autem consectetur fugit perferendis neque et, facilis culpa inventore molestias.</p>
+                            </div>
+                            <div className="text-white group-hover:text-blue-500 absolute bottom-0 -mb-6">
+                                <svg width={34} height={28} viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_dd)">
+                                        <path d="M17 19L28.2583 3.25H5.74167L17 19Z" fill="currentColor" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_dd" x="0.741699" y="0.25" width="32.5167" height="27.75" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                                            <feFlood floodOpacity={0} result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                            <feMorphology radius={1} operator="erode" in="SourceAlpha" result="effect1_dropShadow" />
+                                            <feOffset dy={4} />
+                                            <feGaussianBlur stdDeviation={3} />
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                            <feOffset dy={2} />
+                                            <feGaussianBlur stdDeviation="2.5" />
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0" />
+                                            <feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <div className="flex flex-col items-center justify-center mt-10">
+                            <img src="https://i.ibb.co/8BLjmqz/avatar-2.png" alt="profile pictre" className="w-12 h-12" />
+                            <p className="text-base font-semibold leading-4 my-2 text-gray-800">Lisa Styles</p>
+                            <p className="text-base leading-4 text-center text-gray-600">Student</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="group w-full bg-white relative flex flex-col items-center hover:bg-blue-500 cursor-pointer shadow-md md:p-12 p-6">
+                            <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
+                                <svg width={26} height={27} viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clipPath="url(#clip0)">
+                                        <path d="M25.2578 14.3309H19.2969C19.3988 9.55819 20.6309 9.01642 22.1785 8.86178L22.7753 8.78051V3.53242L22.0874 3.57292C20.0666 3.69783 17.8323 4.09805 16.3417 6.11965C15.035 7.89183 14.459 10.7871 14.459 15.2316V23.4673H25.2578V14.3309Z" fill="currentColor" />
+                                        <path d="M11.48 23.4673V14.3309H5.59859C5.70049 9.55819 6.89283 9.01642 8.44042 8.86178L8.99749 8.78051V3.53242L8.34931 3.57292C6.32844 3.69783 4.07421 4.09805 2.5836 6.11965C1.27707 7.89183 0.681147 10.7871 0.681147 15.2316V23.4673H11.48Z" fill="currentColor" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0">
+                                            <rect width="24.5767" height={27} fill="white" transform="translate(25.2578 27) rotate(-180)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <p className="xl:w-80 text-base leading-normal text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet error numquam optio sint possimus beatae corrupti nulla iste alias repellendus.</p>
+                            </div>
+                            <div className="text-white group-hover:text-blue-500 absolute bottom-0 -mb-6">
+                                <svg width={34} height={28} viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_dd)">
+                                        <path d="M17 19L28.2583 3.25H5.74167L17 19Z" fill="currentColor" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_dd" x="0.741699" y="0.25" width="32.5167" height="27.75" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                                            <feFlood floodOpacity={0} result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                            <feMorphology radius={1} operator="erode" in="SourceAlpha" result="effect1_dropShadow" />
+                                            <feOffset dy={4} />
+                                            <feGaussianBlur stdDeviation={3} />
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                            <feOffset dy={2} />
+                                            <feGaussianBlur stdDeviation="2.5" />
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0" />
+                                            <feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <div className="flex flex-col items-center justify-center mt-10">
+                            <img src="https://i.ibb.co/y0KCX7p/avatar-3.png" alt="profile pictre" className="w-12 h-12" />
+                            <p className="text-base font-semibold leading-4 my-2 text-gray-800">Liam Ho</p>
+                            <p className="text-base leading-4 text-center text-gray-600">Developer</p>
+                        </div>
+                    </div>
+                </div>
         </div>
     )
 }
