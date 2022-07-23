@@ -79,7 +79,7 @@ const Registration = () => {
                         </div>
 
                         <div class="flex justify-center mt-6">
-                            <button class="px-4 py-2 text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">Send Message</button>
+                            <button class="px-4 py-2 text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">Submit</button>
                         </div>
                     </div>
                 </section>
