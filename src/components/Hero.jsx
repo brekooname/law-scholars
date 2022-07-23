@@ -37,8 +37,7 @@ const Hero = () => {
                     <img className="w-full rounded-lg" src={bgImg} alt="https://unsplash.com" />
                     {/* <img className="w-full" src="https://source.unsplash.com/random/500x500/?law,court" alt="Random Law related image from Unsplash" /> */}
                 </div>
-                <div className='absolute flex flex-col py-8 md:min-w-[760px] bottom-[5%] mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200
-            border border-slate-300 rounded-xl text-center shadow-xl'>
+                <div className='absolute flex flex-col py-8 bottom-[5%] mx-1 transform bg-zinc-200 border border-slate-300 rounded-xl text-center shadow-xl xsm:-my-20 xsm:bottom-[-3%] md:min-w-[760px]  md:left-1/2 md:-translate-x-1/2 md:bottom-[20%] lg:bottom-[15%]'>
                     <p>Check out our Community:</p>
                     <div className='flex justify-between flex-wrap px-4'>
                         <p className='flex px-4 py-2 text-slate-500'><FontAwesomeIcon className="h-6 text-blue-500 mr-2" icon={faPeopleGroup} /> Live Discussion</p>
