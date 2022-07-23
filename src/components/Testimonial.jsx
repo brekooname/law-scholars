@@ -48,7 +48,7 @@ const Testimonial = () => {
                             </div>
                         </div>
                         <div className="flex flex-col items-center justify-center mt-10">
-                            <img src="https://source.unsplash.com/random/?portrait" alt="profile pictre" className="w-12 h-12 rounded-full" />
+                            <img src="https://source.unsplash.com/random/?portrait,day" alt="profile pictre" className="w-12 h-12 rounded-full" />
                             <p className="text-base font-semibold leading-4 my-2 text-gray-800">Tomy Vercetti</p>
                             <p className="text-base leading-4 text-center text-gray-600">Designer</p>
                         </div>
