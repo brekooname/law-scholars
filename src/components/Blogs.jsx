@@ -113,6 +113,9 @@ const Blogs = () => {
                                 <br />Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum quam vero dolor at corporis, deserunt, assumenda doloremque, inventore iure ab cupiditate officiis velit reprehenderit. Magnam consequatur amet labore ducimus nam.
                             </p>
                         </div>
+                        <div className="flex items-center justify-center my-16 w-full">
+                    <button className=" hover:bg-blue-400 border border-blue-500 border-2 lg:text-2xl md:text-lg text-sm rounded f-m-m font-semibold text-white focus:outline-none lg:px-12 px-6 lg:py-6 py-3 xl:leading-4">Browse More</button>
+                </div>
                     </div>
                 </section>
                 {/* <!-- Section: Design Block --> */}
