@@ -4,8 +4,6 @@ import { Link, animateScroll as scroll, } from 'react-scroll'
 import { MenuIcon, XIcon } from '@heroicons/react/solid'
 
 import logo from '../assets/new-law-scholars.png'
-import DarkModeToggle from "react-dark-mode-toggle"
-// import Toggle from '../components/toggle';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -35,18 +33,6 @@ const Navbar = () => {
                     <svg class="w-5 h-5 left-1 absolute ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                     <input type="text" placeholder="Search..." className="ml-6 bg-transparent focus:outline-none" />
                 </div>
-                {/* <div>
-                    <Toggle />
-                </div> */}
-
-
-                <DarkModeToggle className="hidden md:block"
-                    onChange={setIsDarkMode}
-                    checked={isDarkMode}
-                    size={70}
-                    speed={2}
-                />
-
 
 
                 <div className='hidden md:flex pr-4'>
