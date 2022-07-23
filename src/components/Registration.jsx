@@ -4,108 +4,85 @@ const Registration = () => {
     return (
         <div name='registration' className='w-full my-44'>
             <div className='max-w-[1240px] mx-auto'>
-                <div className='text-center'>
-                    <h2 className='text-5xl font-bold'>Student Registration</h2>
-                </div>
-                <div className="p-5 my-20">
-                    <div className="mx-4 p-4">
-                        <div className="flex items-center">
-                            <div className="flex items-center text-blue-500 relative">
-                                <div className="rounded-full transition duration-500 ease-in-out h-12 w-12 py-3 border-2 border-blue-500">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-bookmark ">
-                                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
-                                    </svg>
-                                </div>
-                                <div className="absolute top-0 -ml-10 text-center mt-16 w-32 text-xs font-medium uppercase text-blue-500">Personal</div>
-                            </div>
-                            <div className="flex-auto border-t-2 transition duration-500 ease-in-out border-blue-500"></div>
-                            <div className="flex items-center text-white relative">
-                                <div className="rounded-full transition duration-500 ease-in-out h-12 w-12 py-3 border-2 bg-blue-500 border-blue-500">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-user-plus ">
-                                        <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                                        <circle cx="8.5" cy="7" r="4"></circle>
-                                        <line x1="20" y1="8" x2="20" y2="14"></line>
-                                        <line x1="23" y1="11" x2="17" y2="11"></line>
-                                    </svg>
-                                </div>
-                                <div className="absolute top-0 -ml-10 text-center mt-16 w-32 text-xs font-medium uppercase text-blue-500">Educational</div>
-                            </div>
-                            <div className="flex-auto border-t-2 transition duration-500 ease-in-out border-gray-300"></div>
-                            <div className="flex items-center text-gray-500 relative">
-                                <div className="rounded-full transition duration-500 ease-in-out h-12 w-12 py-3 border-2 border-gray-300">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-mail ">
-                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                                        <polyline points="22,6 12,13 2,6"></polyline>
-                                    </svg>
-                                </div>
-                                <div className="absolute top-0 -ml-10 text-center mt-16 w-32 text-xs font-medium uppercase text-gray-500">Message</div>
-                            </div>
-                            <div className="flex-auto border-t-2 transition duration-500 ease-in-out border-gray-300"></div>
-                            <div className="flex items-center text-gray-500 relative">
-                                <div className="rounded-full transition duration-500 ease-in-out h-12 w-12 py-3 border-2 border-gray-300">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-database ">
-                                        <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
-                                        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
-                                        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
-                                    </svg>
-                                </div>
-                                <div className="absolute top-0 -ml-10 text-center mt-16 w-32 text-xs font-medium uppercase text-gray-500">Confirm</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="mt-8 p-4">
-                        <div>
-                            <div className="font-bold text-gray-600 text-xs leading-8 uppercase h-6 mx-2 mt-3">Name of University</div>
-                            <div className="flex flex-col md:flex-row">
-                                <div className="w-full flex-1 mx-2 svelte-1l8159u">
-                                    <div className="bg-white my-2 p-1 flex border border-gray-200 rounded svelte-1l8159u">
-                                        <input placeholder="University Name" className="p-1 px-2 appearance-none outline-none w-full text-gray-800" /> </div>
-                                </div>
-                                <div className="w-full flex-1 mx-2 svelte-1l8159u">
-                                    <div className="bg-white my-2 p-1 flex border border-gray-200 rounded svelte-1l8159u">
-                                        <input placeholder="Name of College" className="p-1 px-2 appearance-none outline-none w-full text-gray-800" /> </div>
-                                </div>
-                            </div>
-                            <div className="flex flex-col md:flex-row">
-                                <div className="w-full mx-2 flex-1 svelte-1l8159u">
-                                    <div className="font-bold h-6 mt-3 text-gray-600 text-xs leading-8 uppercase"> Year of Study</div>
-                                    <div className="bg-white my-2 p-1 flex border border-gray-200 rounded svelte-1l8159u">
-                                        <input type={"number"} placeholder="Your Current Year" className="p-1 px-2 appearance-none outline-none w-full text-gray-800" /> </div>
-                                </div>
-                                <div className="w-full mx-2 flex-1 svelte-1l8159u">
-                                    <div className="font-bold h-6 mt-3 text-gray-600 text-xs leading-8 uppercase"> Your Email</div>
-                                    <div className="bg-white my-2 p-1 flex border border-gray-200 rounded svelte-1l8159u">
-                                        <input type={"email"} placeholder="test@gmail.com" className="p-1 px-2 appearance-none outline-none w-full text-gray-800" /> </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex p-2 mt-4">
-                            <button className="text-base hover:scale-110 focus:outline-none flex justify-center px-4 py-2 rounded font-bold cursor-pointer 
-        hover:bg-gray-200  
-        bg-gray-100 
-        text-gray-700 
-        border duration-200 ease-in-out 
-        border-gray-600 transition">Previous</button>
-                            <div className="flex-auto flex flex-row-reverse">
-                                <button className="text-base  ml-2  hover:scale-110 focus:outline-none flex justify-center px-4 py-2 rounded font-bold cursor-pointer 
-        hover:bg-blue-500  
-        bg-blue-500 
-        text-blue-100 
-        border duration-200 ease-in-out 
-        border-blue-500 transition">Next</button>
-                                <button className="text-base hover:scale-110 focus:outline-none flex justify-center px-4 py-2 rounded font-bold cursor-pointer 
-        hover:bg-blue-200  
-        bg-blue-100 
-        text-blue-500 
-        border duration-200 ease-in-out 
-        border-blue-500 transition">Skip</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
 
-                </div>
+                <section class="w-full px-6 py-4 mx-auto bg-zinc-100 rounded-md shadow-xl">
+                    <h2 class="text-5xl font-bold text-center text-gray-800">Registration</h2>
+                    <p class="mt-3 text-center text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+                    <div class="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-3">
+                        <a href="#" class="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md hover:bg-blue-200">
+                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span class="mt-2">Lucknow, Uttar Pradesh, India</span>
+                        </a>
+
+                        <a href="#" class="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md  hover:bg-blue-200">
+                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                            </svg>
+
+                            <span class="mt-2">+91 6942042069</span>
+                        </a>
+
+                        <a href="#" class="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md  hover:bg-blue-200 ">
+                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                            </svg>
+
+                            <span class="mt-2">some@email.com</span>
+                        </a>
+                    </div>
+
+                    <div class="mt-6 ">
+                        <div class="items-center -mx-2 md:flex">
+                            <div class="w-full mx-2">
+                                <label class="block mb-2 text-sm font-medium text-gray-600">Name</label>
+
+                                <input class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md focus:border-blue-500 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" type="text" placeholder="Rachel Peoske"/>
+                            </div>
+
+                            <div class="w-full mx-2 mt-4 md:mt-0">
+                                <label class="block mb-2 text-sm font-medium text-gray-600">E-mail</label>
+
+                                <input class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md focus:border-blue-500 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" type="email" placeholder="rachel@email.com"/>
+                            </div>
+                        </div>
+                        <div class="items-center -mx-2 md:flex mt-4">
+                            <div class="w-full mx-2">
+                                <label class="block mb-2 text-sm font-medium text-gray-600 ">College</label>
+
+                                <input class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md focus:border-blue-500 focus:ring-blue-300  focus:outline-none focus:ring focus:ring-opacity-40" type="text" placeholder="Hindu University"/>
+                            </div>
+
+                            <div class="w-full mx-2 mt-4 md:mt-0">
+                                <label class="block mb-2 text-sm font-medium text-gray-600 ">Year of Study</label>
+
+                                <input class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md focus:border-blue-500 focus:ring-blue-300  focus:outline-none focus:ring focus:ring-opacity-40" type="number" placeholder="5"/>
+                            </div>
+                        </div>
+                        <div class="items-center -mx-2 md:flex mt-4">
+
+                            <div class="w-full mx-2 mt-4 md:mt-0">
+                                <label class="block mb-2 text-sm font-medium text-gray-600 ">Enrolled in the bar?</label>
+
+                                <input class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md focus:border-blue-500 focus:ring-blue-300  focus:outline-none focus:ring focus:ring-opacity-40" type="number" placeholder="Year of Enrollment" />
+                            </div>
+                        </div>
+
+                        <div class="w-full mt-4">
+                            <label class="block mb-2 text-sm font-medium text-gray-600 ">Reason for visiting Law Scholars</label>
+
+                            <textarea class="block w-full h-40 px-4 py-2 text-gray-700 bg-white border rounded-md focus:border-blue-500  focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40" placeholder="I like this so much!"></textarea>
+                        </div>
+
+                        <div class="flex justify-center mt-6">
+                            <button class="px-4 py-2 text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">Send Message</button>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
 
