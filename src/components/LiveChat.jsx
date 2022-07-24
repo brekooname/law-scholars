@@ -47,7 +47,7 @@ const LiveChat = () => {
                         <div class="chat-message">
                             <div class="flex items-end">
                                 <div class="flex flex-col space-y-2 text-xs max-w-xs mx-2 order-2 items-start">
-                                    <div><span class="px-4 py-2 rounded-lg inline-block rounded-bl-none bg-gray-300 text-gray-600">Can be verified on any platform using docker</span></div>
+                                    <div><span class="px-4 py-2 rounded-lg inline-block rounded-bl-none bg-gray-300 text-gray-600">Hey, Can you consult me a Lawyer?</span></div>
                                 </div>
                                 <img src="https://source.unsplash.com/random/?portrait" alt="My profile" class="w-6 h-6 rounded-full order-1" />
                             </div>
@@ -55,7 +55,7 @@ const LiveChat = () => {
                         <div class="chat-message">
                             <div class="flex items-end justify-end">
                                 <div class="flex flex-col space-y-2 text-xs max-w-xs mx-2 order-1 items-end">
-                                    <div><span class="px-4 py-2 rounded-lg inline-block rounded-br-none bg-blue-600 text-white ">Your error message says permission denied, npm global installs must be given root privileges.</span></div>
+                                    <div><span class="px-4 py-2 rounded-lg inline-block rounded-br-none bg-blue-600 text-white ">Ofcourse, that is what we do. What is the problem?</span></div>
                                 </div>
                                 <img src="https://source.unsplash.com/random/?female" alt="My profile" class="w-6 h-6 rounded-full order-2" />
                             </div>
@@ -63,13 +63,13 @@ const LiveChat = () => {
                         <div class="chat-message">
                             <div class="flex items-end">
                                 <div class="flex flex-col space-y-2 text-xs max-w-xs mx-2 order-2 items-start">
-                                    <div><span class="px-4 py-2 rounded-lg inline-block bg-gray-300 text-gray-600">Command was run with root privileges. I'm sure about that.</span></div>
-                                    <div><span class="px-4 py-2 rounded-lg inline-block bg-gray-300 text-gray-600">I've update the description so it's more obviously now</span></div>
-                                    <div><span class="px-4 py-2 rounded-lg inline-block bg-gray-300 text-gray-600">FYI https://askubuntu.com/a/700266/510172</span></div>
+                                    <div><span class="px-4 py-2 rounded-lg inline-block bg-gray-300 text-gray-600">There are many, to name some:</span></div>
+                                    <div><span class="px-4 py-2 rounded-lg inline-block bg-gray-300 text-gray-600">I've created a new Website with MIT license and I want to make a copyright strike!</span></div>
+                                    <div><span class="px-4 py-2 rounded-lg inline-block bg-gray-300 text-gray-600">I tried to talk to him. But he's arrogant.</span></div>
                                     <div>
                                         <span class="px-4 py-2 rounded-lg inline-block rounded-bl-none bg-gray-300 text-gray-600">
-                                            Check the line above (it ends with a # so, I'm running it as root )
-                                            <pre># npm install -g @vue/devtools</pre>
+                                            Okay. I can help you with that.
+                                            <pre>Call me on: +1 595959-4343</pre>
                                         </span>
                                     </div>
                                 </div>
@@ -79,7 +79,7 @@ const LiveChat = () => {
                         <div class="chat-message">
                             <div class="flex items-end justify-end">
                                 <div class="flex flex-col space-y-2 text-xs max-w-xs mx-2 order-1 items-end">
-                                    <div><span class="px-4 py-2 rounded-lg inline-block rounded-br-none bg-blue-600 text-white ">Any updates on this issue? I'm getting the same error when trying to install devtools. Thanks</span></div>
+                                    <div><span class="px-4 py-2 rounded-lg inline-block rounded-br-none bg-blue-600 text-white ">Any updates on this issue? Your cell is not rechabale</span></div>
                                 </div>
                                 <img src="https://source.unsplash.com/random/?female" alt="My profile" class="w-6 h-6 rounded-full order-2" />
                             </div>
@@ -87,7 +87,7 @@ const LiveChat = () => {
                         <div class="chat-message">
                             <div class="flex items-end">
                                 <div class="flex flex-col space-y-2 text-xs max-w-xs mx-2 order-2 items-start">
-                                    <div><span class="px-4 py-2 rounded-lg inline-block rounded-bl-none bg-gray-300 text-gray-600">Thanks for your message David. I thought I'm alone with this issue. Please, ? the issue to support it :)</span></div>
+                                    <div><span class="px-4 py-2 rounded-lg inline-block rounded-bl-none bg-gray-300 text-gray-600">Thanks for your message David. I thought I'm alone with this issue. Please, Bring the issue to support Team:)</span></div>
                                 </div>
                                 <img src="https://source.unsplash.com/random/?portrait" alt="My profile" class="w-6 h-6 rounded-full order-1" />
                             </div>
@@ -95,8 +95,8 @@ const LiveChat = () => {
                         <div class="chat-message">
                             <div class="flex items-end justify-end">
                                 <div class="flex flex-col space-y-2 text-xs max-w-xs mx-2 order-1 items-end">
-                                    <div><span class="px-4 py-2 rounded-lg inline-block bg-blue-600 text-white ">Are you using sudo?</span></div>
-                                    <div><span class="px-4 py-2 rounded-lg inline-block rounded-br-none bg-blue-600 text-white ">Run this command sudo chown -R `whoami` /Users/ your_user_profile /.npm-global/ then install the package globally without using sudo</span></div>
+                                    <div><span class="px-4 py-2 rounded-lg inline-block bg-blue-600 text-white ">Are you using it?</span></div>
+                                    <div><span class="px-4 py-2 rounded-lg inline-block rounded-br-none bg-blue-600 text-white ">Gotcha!</span></div>
                                 </div>
                                 <img src="https://source.unsplash.com/random/?female" alt="My profile" class="w-6 h-6 rounded-full order-2" />
                             </div>
@@ -104,8 +104,8 @@ const LiveChat = () => {
                         <div class="chat-message">
                             <div class="flex items-end">
                                 <div class="flex flex-col space-y-2 text-xs max-w-xs mx-2 order-2 items-start">
-                                    <div><span class="px-4 py-2 rounded-lg inline-block bg-gray-300 text-gray-600">It seems like you are from Mac OS world. There is no /Users/ folder on linux ?</span></div>
-                                    <div><span class="px-4 py-2 rounded-lg inline-block rounded-bl-none bg-gray-300 text-gray-600">I have no issue with any other packages installed with root permission globally.</span></div>
+                                    <div><span class="px-4 py-2 rounded-lg inline-block bg-gray-300 text-gray-600">It seems like you being used for their benefit.</span></div>
+                                    <div><span class="px-4 py-2 rounded-lg inline-block rounded-bl-none bg-gray-300 text-gray-600">I have no issue with the team when I contacted them. You should try too.</span></div>
                                 </div>
                                 <img src="https://source.unsplash.com/random/?portrait" alt="My profile" class="w-6 h-6 rounded-full order-1" />
                             </div>
@@ -113,7 +113,7 @@ const LiveChat = () => {
                         <div class="chat-message">
                             <div class="flex items-end justify-end">
                                 <div class="flex flex-col space-y-2 text-xs max-w-xs mx-2 order-1 items-end">
-                                    <div><span class="px-4 py-2 rounded-lg inline-block rounded-br-none bg-blue-600 text-white ">yes, I have a mac. I never had issues with root permission as well, but this helped me to solve the problem</span></div>
+                                    <div><span class="px-4 py-2 rounded-lg inline-block rounded-br-none bg-blue-600 text-white ">Yes, I have a dog named Mac. Would you like to come over?</span></div>
                                 </div>
                                 <img src="https://source.unsplash.com/random/?female" alt="My profile" class="w-6 h-6 rounded-full order-2" />
                             </div>
@@ -121,9 +121,9 @@ const LiveChat = () => {
                         <div class="chat-message">
                             <div class="flex items-end">
                                 <div class="flex flex-col space-y-2 text-xs max-w-xs mx-2 order-2 items-start">
-                                    <div><span class="px-4 py-2 rounded-lg inline-block bg-gray-300 text-gray-600">I get the same error on Arch Linux (also with sudo)</span></div>
-                                    <div><span class="px-4 py-2 rounded-lg inline-block bg-gray-300 text-gray-600">I also have this issue, Here is what I was doing until now: #1076</span></div>
-                                    <div><span class="px-4 py-2 rounded-lg inline-block rounded-bl-none bg-gray-300 text-gray-600">even i am facing</span></div>
+                                    <div><span class="px-4 py-2 rounded-lg inline-block bg-gray-300 text-gray-600">I get the same response with any support team. I don't know what is the problem.</span></div>
+                                    <div><span class="px-4 py-2 rounded-lg inline-block bg-gray-300 text-gray-600">I can help you on that. Contact Law Scholars.</span></div>
+                                    <div><span class="px-4 py-2 rounded-lg inline-block rounded-bl-none bg-gray-300 text-gray-600">They are very good at it. I come to know this from a friend of mine.</span></div>
                                 </div>
                                 <img src="https://source.unsplash.com/random/?portrait" alt="My profile" class="w-6 h-6 rounded-full order-1" />
                             </div>
