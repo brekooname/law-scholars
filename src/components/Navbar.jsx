@@ -20,6 +20,7 @@ const Navbar = () => {
                     <ul className='hidden md:flex'>
                         <li className="cursor-pointer"><Link to="home" smooth={true} duration={500}>Home</Link></li>
                         <li className="cursor-pointer"><Link to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
+                        <li className="cursor-pointer"><Link to="quiz" smooth={true} offset={-200} duration={500}>Quiz</Link></li>
                         <li className="cursor-pointer"><Link to="registration" smooth={true} offset={-100} duration={500}>Registration</Link></li>
                         <li className="cursor-pointer"><Link to="blogs" smooth={true} offset={-50} duration={500}>Blogs</Link></li>
                         <li className="cursor-pointer"><Link to="livechat" smooth={true} offset={-50} duration={500}>Discussion</Link></li>
@@ -51,6 +52,7 @@ const Navbar = () => {
             <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="home" smooth={true} duration={500}>Home</Link></li>
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
+                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="quiz" smooth={true} offset={-200} duration={500}>Quiz</Link></li>
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="registration" smooth={true} offset={-100} duration={500}>Registration</Link></li>
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="blogs" smooth={true} offset={-50} duration={500}>Blogs</Link></li>
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="livechat" smooth={true} offset={-50} duration={500}>Discussion</Link></li>
