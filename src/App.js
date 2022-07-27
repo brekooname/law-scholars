@@ -9,6 +9,7 @@ import {Routes, Route} from "react-router-dom";
 import LoginSignup from "./components/LoginSignup";
 import Testimonial from "./components/Testimonial";
 import LiveChat from "./components/LiveChat";
+import Quiz from "./components/Quiz";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <About/>
+      <Quiz/>
       <Registration/>
       <Blogs/>
       <LiveChat/>
