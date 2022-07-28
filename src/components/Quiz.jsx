@@ -3,6 +3,38 @@ import React from 'react'
 const Quiz = () => {
 
     const quizData = [
+        {
+            question: "The Maxim 'Actus non facit rea nisi sit rea' means?",
+            a: "Crime has to be coupled with guilty mind",
+            b: "There can be no crime without a guilty mind",
+            c: "Crime is the result of guilty mind",
+            d: "Criminal mind leads to crime",
+            correct: "b",
+        },
+        {
+            question: "Section 84 of IPC provides for",
+            a: "Legal insanity",
+            b: "Medical insanity",
+            c: "Moral insanity",
+            d: "Unsound insanity",
+            correct: "a",
+        },
+        {
+            question: "Laying a trap is a part of",
+            a: "Preliminary inquiry",
+            b: "Trial",
+            c: "Investigation",
+            d: "Inquiry",
+            correct: "c",
+        },
+        {
+            question: "IPC is divided into how many sections?",
+            a: "511 sections",
+            b: "512 sections",
+            c: "515 sections",
+            d: "520 sections",
+            correct: "a",
+        },
     ];
 
     return (
