@@ -25,7 +25,7 @@ const Navbar = () => {
                         <li className="cursor-pointer"><Link to="blogs" smooth={true} offset={-50} duration={500}>Blogs</Link></li>
                         <li className="cursor-pointer"><Link to="livechat" smooth={true} offset={-50} duration={500}>Discussion</Link></li>
                         <li className="cursor-pointer"><Link to="testimonial" smooth={true} offset={-50} duration={500}>Testimonials</Link></li>
-                        <li className="cursor-pointer"><Link to="support" smooth={true} offset={-50} duration={500}>Support</Link></li>
+                        <li className="cursor-pointer"><Link to="service" smooth={true} offset={-50} duration={500}>Services</Link></li>
                     </ul>
                 </div>
 
@@ -57,7 +57,7 @@ const Navbar = () => {
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="blogs" smooth={true} offset={-50} duration={500}>Blogs</Link></li>
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="livechat" smooth={true} offset={-50} duration={500}>Discussion</Link></li>
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="testimonial" smooth={true} offset={-50} duration={500}>Testimonial</Link></li>
-                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="support" smooth={true} offset={-50} duration={500}>Support</Link></li>
+                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="service" smooth={true} offset={-50} duration={500}>Services</Link></li>
 
                 <div className='flex flex-col my-4'>
                     <button className='bg-transparent text-blue-500 px-8 py-3 mb-4'>Sign In</button>
