@@ -18,14 +18,14 @@ const Navbar = () => {
                     <Link to="home" smooth={true} duration={500}><img src={logo} alt="Law Scholar's Logo" className="h-20 mr-4 ml-4 cursor-pointer" /></Link>
                     {/* <h1 className='text-3xl font-bold mr-4 sm:text-4xl'>Law Scholars</h1> */}
                     <ul className='hidden md:flex'>
-                        <li className="cursor-pointer"><Link to="home" smooth={true} duration={500}>Home</Link></li>
-                        <li className="cursor-pointer"><Link to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
-                        <li className="cursor-pointer"><Link to="quiz" smooth={true} offset={-200} duration={500}>Quiz</Link></li>
-                        <li className="cursor-pointer"><Link to="registration" smooth={true} offset={-100} duration={500}>Registration</Link></li>
-                        <li className="cursor-pointer"><Link to="blogs" smooth={true} offset={-50} duration={500}>Blogs</Link></li>
-                        <li className="cursor-pointer"><Link to="livechat" smooth={true} offset={-50} duration={500}>Discussion</Link></li>
-                        <li className="cursor-pointer"><Link to="testimonial" smooth={true} offset={-50} duration={500}>Testimonials</Link></li>
-                        <li className="cursor-pointer"><Link to="service" smooth={true} offset={-50} duration={500}>Services</Link></li>
+                        <li className="cursor-pointer hover:text-blue-500"><Link to="home" smooth={true} duration={500}>Home</Link></li>
+                        <li className="cursor-pointer hover:text-blue-500"><Link to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
+                        <li className="cursor-pointer hover:text-blue-500"><Link to="quiz" smooth={true} offset={-200} duration={500}>Quiz</Link></li>
+                        <li className="cursor-pointer hover:text-blue-500"><Link to="registration" smooth={true} offset={-100} duration={500}>Registration</Link></li>
+                        <li className="cursor-pointer hover:text-blue-500"><Link to="blogs" smooth={true} offset={-50} duration={500}>Blogs</Link></li>
+                        <li className="cursor-pointer hover:text-blue-500"><Link to="livechat" smooth={true} offset={-50} duration={500}>Discussion</Link></li>
+                        <li className="cursor-pointer hover:text-blue-500"><Link to="testimonial" smooth={true} offset={-50} duration={500}>Testimonials</Link></li>
+                        <li className="cursor-pointer hover:text-blue-500"><Link to="service" smooth={true} offset={-50} duration={500}>Services</Link></li>
                     </ul>
                 </div>
 
@@ -50,14 +50,14 @@ const Navbar = () => {
             </div>
 
             <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
-                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="home" smooth={true} duration={500}>Home</Link></li>
-                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
-                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="quiz" smooth={true} offset={-200} duration={500}>Quiz</Link></li>
-                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="registration" smooth={true} offset={-100} duration={500}>Registration</Link></li>
-                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="blogs" smooth={true} offset={-50} duration={500}>Blogs</Link></li>
-                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="livechat" smooth={true} offset={-50} duration={500}>Discussion</Link></li>
-                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="testimonial" smooth={true} offset={-50} duration={500}>Testimonial</Link></li>
-                <li className='border-b-2 border-zinc-300 w-full cursor-pointer'><Link onClick={Closing} to="service" smooth={true} offset={-50} duration={500}>Services</Link></li>
+                <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="home" smooth={true} duration={500}>Home</Link></li>
+                <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
+                <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="quiz" smooth={true} offset={-200} duration={500}>Quiz</Link></li>
+                <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="registration" smooth={true} offset={-100} duration={500}>Registration</Link></li>
+                <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="blogs" smooth={true} offset={-50} duration={500}>Blogs</Link></li>
+                <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="livechat" smooth={true} offset={-50} duration={500}>Discussion</Link></li>
+                <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="testimonial" smooth={true} offset={-50} duration={500}>Testimonial</Link></li>
+                <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="service" smooth={true} offset={-50} duration={500}>Services</Link></li>
 
                 <div className='flex flex-col my-4'>
                     <button className='bg-transparent text-blue-500 px-8 py-3 mb-4'>Sign In</button>
