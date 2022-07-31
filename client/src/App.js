@@ -34,13 +34,6 @@ class App extends Component {
 
     return (
       <>
-        <div className="App">
-          <header className="App-header">
-            {/* <img src={logo} className="App-logo" alt="logo" /> */}
-            <h1 className="App-title">Welcome to React</h1>
-          </header>
-          <p className="App-intro">{this.state.apiResponse}</p>
-        </div>
         <Navbar />
         <Hero />
         <About />
@@ -60,3 +53,13 @@ class App extends Component {
 }
 
 export default App;
+
+
+// From line 36 to test Server:
+//<div className="App">
+//<header className="App-header">
+//  {/* <img src={logo} className="App-logo" alt="logo" /> */}
+//  <h1 className="App-title">Welcome to React</h1>
+//</header>
+//<p className="App-intro">{this.state.apiResponse}</p>
+//</div>
