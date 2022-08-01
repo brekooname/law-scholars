@@ -70,8 +70,9 @@ const Footer = () => {
             <div className='flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500'>
                 <p className='py-4'>Made with 💙 by <a href="https://github.com/ShlokBharadwaj" target="_blank" className='text-blue-500'>ShlokBharadwaj</a></p>
                 <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
+
                     <FontAwesomeIcon icon={faFacebook} className="cursor-pointer hover:text-blue-400" />
-                    <FontAwesomeIcon icon={faInstagram} className="cursor-pointer hover:text-red-400" />
+                    <a href="https://www.instagram.com/law_scholars_/" target="_blank">  <FontAwesomeIcon icon={faInstagram} className="cursor-pointer hover:text-red-400" /> </a>
                     <FontAwesomeIcon icon={faTwitter} className="cursor-pointer hover:text-blue-400" />
                     <FontAwesomeIcon icon={faLinkedin} className="cursor-pointer hover:text-blue-500" />
                     <FontAwesomeIcon icon={faDiscord} className="cursor-pointer hover:text-indigo-500" />
