@@ -12,7 +12,7 @@ const Navbar = () => {
     const Closing = () => setNav(!nav)
 
     return (
-        <div className='w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg'>
+        <div className='w-screen h-[80px] z-10 bg-slate-200 fixed drop-shadow-lg'>
             <div className='px-2 flex justify-between items-center w-full h-full'>
                 <div className='flex items-center'>
                     <Link to="home" smooth={true} duration={500}><img src={logo} alt="Law Scholar's Logo" className="h-20 mr-4 ml-4 cursor-pointer" /></Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
                         <button className='px-4 py-2 border-none bg-transparent text-black mr-4'>
                             Sign In
                         </button>
-                        <button className='px-4 py-2'>Sign Up</button>
+                        <button className='px-4 py-2 border-none'>Sign Up</button>
                     {/* </a> */}
                 </div>
                 <div className='md:hidden mr-4 cursor-pointer' onClick={Clicking}>
