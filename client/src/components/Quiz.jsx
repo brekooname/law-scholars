@@ -59,34 +59,34 @@ const Quiz = () => {
     };
 
     return (
-        <div name='quiz' className='app w-full bg-slate-100 bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center'>
+        <div name='quiz' className='app w-full py-32 bg-slate-100 bg-gradient-to-r from-cyan-500 to-blue-500 relative items-center justify-center'>
             <div className='max-w-[1240px] mx-auto'>
                 <div className='text-center'>
                     <h2 className='text-5xl font-bold p-3'>Quiz Section</h2>
                     <p class="text-center text-gray-600 p-2">Let's put your knowledge to test</p>
                 </div>
-                <div class="quiz-container" id="quiz" className='bg-white rounded-lg shadow-lg w-full my-6'>
+                <div class="quiz-container" id="quiz" className='bg-white rounded-lg shadow-2xl w-full my-6 py-28'>
                     {showScore ? (
                         <div className='score-section text-center m-5'>
                             You scored {score} out of {questions.length}
                             {score > questions.length / 2 ? (
-                                <div class="rating p-5 mx-3">
+                                <div class="rating p-5 mx-4 py-28">
                                     <img src="https://media0.giphy.com/media/QWvra259h4LCvdJnxP/giphy.gif?cid=ecf05e477miawv5xxfdxax03lro8fzied4d9thwt55kmscix&rid=giphy.gif&ct=g"
-                                        alt="Happy" className='max-w-[120px] max-h-[120px] cursor-pointer ml-10'/>
-                                    <p className='text-green-500'>Damn! That was good!</p>
+                                        alt="Happy" className='max-w-[120px] max-h-[120px] cursor-pointer ml-[45%]' />
+                                    <p className='text-green-500 my-4'>Damn! That was good!</p>
                                 </div>
                             ) : (<>
                                 {score === questions.length / 2 ? (
-                                    <div class="rating p-4 mx-4">
+                                    <div class="rating p-4 mx-4 py-28">
                                         <img src="https://media1.giphy.com/media/j4l0mCdcTFRyY4Bc5s/giphy.gif?cid=ecf05e476g38ig2o1ygj8v5xkd0oo964pzj1p0dzowr4ie4q&rid=giphy.gif&ct=g"
-                                            alt="Neutral" className='max-w-[120px] max-h-[120px] cursor-pointer ml-10'/>
-                                        <p className='text-yellow-500'>That was decent!</p>
+                                            alt="Neutral" className='max-w-[120px] max-h-[120px] cursor-pointer ml-[45%]' />
+                                        <p className='text-yellow-500 my-4'>That was decent!</p>
                                     </div>
                                 ) : (
-                                    <div class="rating p-4 mx-4">
+                                    <div class="rating p-4 mx-4 py-28">
                                         <img src="https://media2.giphy.com/media/xYJhVe7tIy8KUZCwkW/giphy.gif?cid=ecf05e4708ony0jdekbsf7oa6wto0o8u8g8sr5qped9p8fkf&rid=giphy.gif&ct=s"
-                                            alt="Unhappy" className='max-w-[120px] max-h-[120px] cursor-pointer ml-10'/>
-                                        <p className='text-red-500'>Try again!</p>
+                                            alt="Unhappy" className='max-w-[120px] max-h-[120px] cursor-pointer ml-[45%]' />
+                                        <p className='text-red-500 my-4'>Try again!</p>
                                     </div>
                                 )
                                 }
@@ -99,11 +99,12 @@ const Quiz = () => {
                                 <div className='question-count p-4 text-center m-0'>
                                     <span>Question {currentQuestion + 1}</span>/{questions.length}
                                 </div>
-                                <div className='question-text p-4 text-center m-0 text-4xl'>{questions[currentQuestion].questionText}</div>
+                                <div className='question-text p-4 text-center m-0 text-4xl'>{questions[currentQuestion].questionText}
+                                </div>
                             </div>
-                            <div className='answer-section space-x-4'>
+                            <div className='answer-section space-x-4 py-8'>
                                 {questions[currentQuestion].answerOptions.map((answerOption) => (
-                                    <button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
+                                    <button className='p-4'  onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
                                 ))}
                             </div>
                         </>
