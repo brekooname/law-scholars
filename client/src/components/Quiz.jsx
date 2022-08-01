@@ -6,8 +6,8 @@ const Quiz = () => {
         {
             questionText: "The Maxim 'Actus non facit rea nisi sit rea' means?",
             answerOptions: [
-                { answerText: 'Crime has to be coupled with guilty mind', isCorrect: false },
                 { answerText: 'There can be no crime without a guilty mind', isCorrect: true },
+                { answerText: 'Crime has to be coupled with guilty mind', isCorrect: false },
                 { answerText: 'Crime is the result of guilty mind', isCorrect: false },
                 { answerText: 'Criminal mind leads to crime', isCorrect: false },
             ],
@@ -15,8 +15,8 @@ const Quiz = () => {
         {
             questionText: 'Section 84 of IPC provides for?',
             answerOptions: [
-                { answerText: 'Legal insanity', isCorrect: true },
                 { answerText: 'Medical insanity', isCorrect: false },
+                { answerText: 'Legal insanity', isCorrect: true },
                 { answerText: 'Moral insanity', isCorrect: false },
                 { answerText: 'Unsound insanity', isCorrect: false },
             ],
@@ -33,10 +33,10 @@ const Quiz = () => {
         {
             questionText: 'IPC is divided into how many sections?',
             answerOptions: [
-                { answerText: '511', isCorrect: true },
                 { answerText: '512', isCorrect: false },
                 { answerText: '515', isCorrect: false },
                 { answerText: '520', isCorrect: false },
+                { answerText: '511', isCorrect: true },
             ],
         },
     ];
@@ -62,18 +62,39 @@ const Quiz = () => {
         <div name='quiz' className='app w-full bg-slate-100 bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center'>
             <div className='max-w-[1240px] mx-auto'>
                 <div className='text-center'>
-                    <h2 className='text-5xl font-bold p-4'>Quiz Section</h2>
-                    <p class="m-2 text-center text-gray-600 p-2">Let's put your knowledge to test</p>
+                    <h2 className='text-5xl font-bold p-3'>Quiz Section</h2>
+                    <p class="text-center text-gray-600 p-2">Let's put your knowledge to test</p>
                 </div>
                 <div class="quiz-container" id="quiz" className='bg-white rounded-lg shadow-lg w-full my-6'>
                     {showScore ? (
                         <div className='score-section text-center'>
                             You scored {score} out of {questions.length}
-                            {score === questions.length ? (
-                                <p className='text-green-500'>Damn! That was good!</p>
-                            ): 
-                            (<p className='text-red-500'>Try again!</p>)
-                        }
+                            {score > questions.length / 2 ? (
+                                <div class="rating">
+                                    <img src="https://media0.giphy.com/media/QWvra259h4LCvdJnxP/giphy.gif?cid=ecf05e477miawv5xxfdxax03lro8fzied4d9thwt55kmscix&rid=giphy.gif&ct=g"
+                                        alt="Happy" />
+                                    <small>Happy</small>
+                                    <p className='text-green-500'>Damn! That was good!</p>
+                                </div>
+                            ) : (<>
+                                {score === questions.length / 2 ? (
+                                    <div class="rating">
+                                        <img src="https://media1.giphy.com/media/j4l0mCdcTFRyY4Bc5s/giphy.gif?cid=ecf05e476g38ig2o1ygj8v5xkd0oo964pzj1p0dzowr4ie4q&rid=giphy.gif&ct=g"
+                                            alt="Neutral" />
+                                        <small>Neutral</small>
+                                        <p className='text-yellow-500'>That was decent!</p>
+                                    </div>
+                                ) : (
+                                    <div class="rating">
+                                        <img src="https://media2.giphy.com/media/xYJhVe7tIy8KUZCwkW/giphy.gif?cid=ecf05e4708ony0jdekbsf7oa6wto0o8u8g8sr5qped9p8fkf&rid=giphy.gif&ct=s"
+                                            alt="Unhappy" />
+                                        <small>Unhappy</small>
+                                        <p className='text-red-500'>Try again!</p>
+                                    </div>
+                                )
+                                }
+                            </>)
+                            }
                         </div>
                     ) : (
                         <>
