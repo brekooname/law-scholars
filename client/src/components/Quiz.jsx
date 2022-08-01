@@ -102,9 +102,9 @@ const Quiz = () => {
                                 <div className='question-text p-4 text-center m-0 text-4xl'>{questions[currentQuestion].questionText}
                                 </div>
                             </div>
-                            <div className='answer-section space-x-4 py-8'>
+                            <div className='answer-section py-8 border-gray-800'>
                                 {questions[currentQuestion].answerOptions.map((answerOption) => (
-                                    <button className='p-4'  onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
+                                    <button className='p-4 block w-[50%] ml-[25%]' onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
                                 ))}
                             </div>
                         </>
