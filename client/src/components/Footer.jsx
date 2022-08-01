@@ -30,7 +30,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <h6 className='font-bold uppercase pt-2'>Support</h6>
-                    <ul>                        
+                    <ul>
                         <li className='py-1 cursor-pointer hover:text-blue-400'>Documentation</li>
                         <li className='py-1 cursor-pointer hover:text-blue-400'>Call</li>
                         <li className='py-1 cursor-pointer hover:text-blue-400'>Guides</li>
@@ -74,7 +74,7 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faFacebook} className="cursor-pointer hover:text-blue-400" />
                     <a href="https://www.instagram.com/law_scholars_/" target="_blank">  <FontAwesomeIcon icon={faInstagram} className="cursor-pointer hover:text-red-400" /> </a>
                     <FontAwesomeIcon icon={faTwitter} className="cursor-pointer hover:text-blue-400" />
-                    <FontAwesomeIcon icon={faLinkedin} className="cursor-pointer hover:text-blue-500" />
+                    <a href="https://www.linkedin.com/in/law-scholars/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="cursor-pointer hover:text-blue-500" /></a>
                     <FontAwesomeIcon icon={faDiscord} className="cursor-pointer hover:text-indigo-500" />
                     <FontAwesomeIcon icon={faReddit} className="cursor-pointer  hover:text-red-600" />
                     <FontAwesomeIcon icon={faYoutube} className="cursor-pointer  hover:text-red-700" />
