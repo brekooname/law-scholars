@@ -11,6 +11,7 @@ import LoginSignup from "./components/LoginSignup";
 import Testimonial from "./components/Testimonial";
 import LiveChat from "./components/LiveChat";
 import Quiz from "./components/Quiz";
+import logo from "./assets/logo.jpg";
 
 class App extends Component {
 
@@ -55,10 +56,10 @@ class App extends Component {
 export default App;
 
 
-// From line 36 to test Server:
+// From line 37 to test Server:
 //<div className="App">
 //<header className="App-header">
-//  {/* <img src={logo} className="App-logo" alt="logo" /> */}
+//  <img src={logo} className="App-logo" alt="logo" /> 
 //  <h1 className="App-title">Welcome to React</h1>
 //</header>
 //<p className="App-intro">{this.state.apiResponse}</p>
