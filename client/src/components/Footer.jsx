@@ -71,13 +71,13 @@ const Footer = () => {
                 <p className='py-4'>Made with 💙 by <a href="https://github.com/ShlokBharadwaj" target="_blank" className='text-blue-500'>ShlokBharadwaj</a></p>
                 <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
 
-                    <FontAwesomeIcon icon={faFacebook} className="cursor-pointer hover:text-blue-400" />
+                    <FontAwesomeIcon icon={faFacebook} className="cursor-pointer hover:text-[#4267B2]" />
                     <a href="https://www.instagram.com/law_scholars_/" target="_blank">  <FontAwesomeIcon icon={faInstagram} className="cursor-pointer hover:text-red-400" /> </a>
-                    <FontAwesomeIcon icon={faTwitter} className="cursor-pointer hover:text-blue-400" />
-                    <a href="https://www.linkedin.com/in/law-scholars/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="cursor-pointer hover:text-blue-500" /></a>
-                    <FontAwesomeIcon icon={faDiscord} className="cursor-pointer hover:text-indigo-500" />
-                    <FontAwesomeIcon icon={faReddit} className="cursor-pointer  hover:text-red-600" />
-                    <FontAwesomeIcon icon={faYoutube} className="cursor-pointer  hover:text-red-700" />
+                    <FontAwesomeIcon icon={faTwitter} className="cursor-pointer hover:text-[#00acee]" />
+                    <a href="https://www.linkedin.com/in/law-scholars/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="cursor-pointer hover:text-[#0072b1]" /></a>
+                    <FontAwesomeIcon icon={faDiscord} className="cursor-pointer hover:text-[#5865F2]" />
+                    <FontAwesomeIcon icon={faReddit} className="cursor-pointer  hover:text-[#ff4500]" />
+                    <FontAwesomeIcon icon={faYoutube} className="cursor-pointer  hover:text-[#FF0000]" />
                 </div>
             </div>
         </div>
