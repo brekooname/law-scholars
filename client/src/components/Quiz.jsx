@@ -69,6 +69,11 @@ const Quiz = () => {
                     {showScore ? (
                         <div className='score-section text-center'>
                             You scored {score} out of {questions.length}
+                            {score === questions.length ? (
+                                <p className='text-green-500'>Damn! That was good!</p>
+                            ): 
+                            (<p className='text-red-500'>Try again!</p>)
+                        }
                         </div>
                     ) : (
                         <>
