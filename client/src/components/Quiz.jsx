@@ -65,20 +65,20 @@ const Quiz = () => {
                     <h2 className='text-5xl font-bold p-4'>Quiz Section</h2>
                     <p class="m-2 text-center text-gray-600 p-2">Let's put your knowledge to test</p>
                 </div>
-                <div class="quiz-container" id="quiz" className='bg-white rounded-lg shadow-lg w-full'>
+                <div class="quiz-container" id="quiz" className='bg-white rounded-lg shadow-lg w-full my-6'>
                     {showScore ? (
-                        <div className='score-section'>
+                        <div className='score-section text-center'>
                             You scored {score} out of {questions.length}
                         </div>
                     ) : (
                         <>
-                            <div className='question-section'>
-                                <div className='question-count'>
+                            <div className='question-section p-16'>
+                                <div className='question-count p-4 text-center m-0'>
                                     <span>Question {currentQuestion + 1}</span>/{questions.length}
                                 </div>
-                                <div className='question-text'>{questions[currentQuestion].questionText}</div>
+                                <div className='question-text p-4 text-center m-0 text-4xl'>{questions[currentQuestion].questionText}</div>
                             </div>
-                            <div className='answer-section'>
+                            <div className='answer-section space-x-4'>
                                 {questions[currentQuestion].answerOptions.map((answerOption) => (
                                     <button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
                                 ))}
