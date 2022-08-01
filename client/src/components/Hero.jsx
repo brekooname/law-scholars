@@ -31,7 +31,7 @@ const Hero = () => {
                             backSpeed={150}
                             loop
                         /></p>
-                    <button className="scroll-smooth py-3 px-6 my-4 sm:w-[60%]"><Link to="registration" smooth={true} duration={500}>Get Started</Link></button>
+                    <button className="scroll-smooth py-3 px-6 my-4 sm:w-[60%] border-none"><Link to="registration" smooth={true} duration={500}>Get Started</Link></button>
                 {/* </div> */}
                
                 <div className='absolute flex flex-col py-8 bottom-[5%] mx-1 transform bg-zinc-200 border border-slate-300 rounded-xl text-center shadow-xl xsm:-my-20 xsm:bottom-[-3%] xsm:mr-10  md:min-w-[760px]  md:left-1/2 md:-translate-x-1/2 md:bottom-[20%] lg:bottom-[15%]'>
