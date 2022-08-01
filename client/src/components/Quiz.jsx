@@ -95,16 +95,16 @@ const Quiz = () => {
                         </div>
                     ) : (
                         <>
-                            <div className='question-section p-16'>
-                                <div className='question-count p-4 text-center m-0'>
+                            <div className='question-section p-0'>
+                                <div className='question-count p-2 text-center m-0'>
                                     <span>Question {currentQuestion + 1}</span>/{questions.length}
                                 </div>
-                                <div className='question-text p-4 text-center m-0 text-4xl'>{questions[currentQuestion].questionText}
+                                <div className='question-text  p-4 text-center m-0 text-4xl'>{questions[currentQuestion].questionText}
                                 </div>
                             </div>
-                            <div className='answer-section py-8 border-gray-800'>
+                            <div className='answer-section py-4'>
                                 {questions[currentQuestion].answerOptions.map((answerOption) => (
-                                    <button className='p-4 block w-[50%] ml-[25%]' onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
+                                    <button className='p-3 block w-[50%] ml-[25%] rounded-md' onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
                                 ))}
                             </div>
                         </>
