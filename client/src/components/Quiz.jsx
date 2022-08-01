@@ -67,28 +67,25 @@ const Quiz = () => {
                 </div>
                 <div class="quiz-container" id="quiz" className='bg-white rounded-lg shadow-lg w-full my-6'>
                     {showScore ? (
-                        <div className='score-section text-center'>
+                        <div className='score-section text-center m-5'>
                             You scored {score} out of {questions.length}
                             {score > questions.length / 2 ? (
-                                <div class="rating">
+                                <div class="rating p-5 mx-3">
                                     <img src="https://media0.giphy.com/media/QWvra259h4LCvdJnxP/giphy.gif?cid=ecf05e477miawv5xxfdxax03lro8fzied4d9thwt55kmscix&rid=giphy.gif&ct=g"
-                                        alt="Happy" />
-                                    <small>Happy</small>
+                                        alt="Happy" className='max-w-[120px] max-h-[120px] cursor-pointer ml-10'/>
                                     <p className='text-green-500'>Damn! That was good!</p>
                                 </div>
                             ) : (<>
                                 {score === questions.length / 2 ? (
-                                    <div class="rating">
+                                    <div class="rating p-4 mx-4">
                                         <img src="https://media1.giphy.com/media/j4l0mCdcTFRyY4Bc5s/giphy.gif?cid=ecf05e476g38ig2o1ygj8v5xkd0oo964pzj1p0dzowr4ie4q&rid=giphy.gif&ct=g"
-                                            alt="Neutral" />
-                                        <small>Neutral</small>
+                                            alt="Neutral" className='max-w-[120px] max-h-[120px] cursor-pointer ml-10'/>
                                         <p className='text-yellow-500'>That was decent!</p>
                                     </div>
                                 ) : (
-                                    <div class="rating">
+                                    <div class="rating p-4 mx-4">
                                         <img src="https://media2.giphy.com/media/xYJhVe7tIy8KUZCwkW/giphy.gif?cid=ecf05e4708ony0jdekbsf7oa6wto0o8u8g8sr5qped9p8fkf&rid=giphy.gif&ct=s"
-                                            alt="Unhappy" />
-                                        <small>Unhappy</small>
+                                            alt="Unhappy" className='max-w-[120px] max-h-[120px] cursor-pointer ml-10'/>
                                         <p className='text-red-500'>Try again!</p>
                                     </div>
                                 )
