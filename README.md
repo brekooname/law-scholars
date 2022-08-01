@@ -27,7 +27,7 @@ In the root directory of Project you can run:
 This will get us into the client directory. 
 
 ### `npm install`
-This will install all the required dependencies and files required for this Project(Server) to run.
+This will install all the required dependencies and files required for this Project(Client) to run.
 
 ### `npm start`
 This will start the **client**.\
