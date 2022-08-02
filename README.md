@@ -2,6 +2,10 @@
 
 This is a MERN based application. Make sure you have required dependencies installed.
 
+## Change to develop branch
+In the root directory of project write:
+### `git checkout develop`
+
 ## First start the Server
 
 In the root directory of Project you can run:
