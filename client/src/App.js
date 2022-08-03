@@ -47,7 +47,7 @@ class App extends Component {
         <LiveChat />
         <Testimonial />
         <Services />
-        <LoginSignup />
+        {/* <LoginSignup /> */}
         <Footer />
       </>
     );

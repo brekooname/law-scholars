@@ -27,7 +27,7 @@ const Navbar = () => {
                         <li className="cursor-pointer hover:text-[#004284]"><Link to="livechat" smooth={true} offset={-50} duration={500}>Discussion</Link></li>
                         <li className="cursor-pointer hover:text-[#004284]"><Link to="testimonial" smooth={true} offset={-50} duration={500}>Testimonials</Link></li>
                         <li className="cursor-pointer hover:text-[#004284]"><Link to="service" smooth={true} offset={-50} duration={500}>Services</Link></li>
-                        <li className="cursor-pointer hover:text-[#004284]"><Link to="loginsignup" smooth={true} offset={-50} duration={500}>Login/SignUp</Link></li>
+                        {/* <li className="cursor-pointer hover:text-[#004284]"><Link to="loginsignup" smooth={true} offset={-50} duration={500}>Login/SignUp</Link></li> */}
                     </ul>
                 </div>
 
@@ -59,7 +59,7 @@ const Navbar = () => {
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="livechat" smooth={true} offset={-50} duration={500}>Discussion</Link></li>
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="testimonial" smooth={true} offset={-50} duration={500}>Testimonial</Link></li>
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="service" smooth={true} offset={-50} duration={500}>Services</Link></li>
-                <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="loginsignup" smooth={true} offset={-50} duration={500}>Login/SignUp</Link></li>
+                {/* <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="loginsignup" smooth={true} offset={-50} duration={500}>Login/SignUp</Link></li> */}
 
                 <div className='flex flex-col my-4'>
                     <button className='bg-transparent text-blue-500 px-8 py-3 mb-4'>Sign In</button>

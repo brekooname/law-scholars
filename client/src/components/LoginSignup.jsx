@@ -26,7 +26,8 @@ const LoginSignup = () => {
                         <h2 className="text-white text-xl font-medium  mb-[10px]">Already have an Account?</h2>
                         <button className="SignInBtn cursor-pointer p-[10px] bg-[#fff] text-black text-lg font-medium border-none rounded">Sign in</button>
                     </div>
-                    <div className="box signup">
+                    {/* Same as above box section */}
+                    <div className="box signup"> 
                         <h2>Don't have an Account?</h2>
                         <button className="SignUpBtn">Sign up</button>
                     </div>
