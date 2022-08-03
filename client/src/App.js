@@ -36,6 +36,9 @@ class App extends Component {
     return (
       <>
         <Navbar />
+        {/* <Routes> */}
+          {/* <Route path="/LoginSignup" element={<LoginSignup />} /> */}
+        {/* </Routes> */}
         <Hero />
         <About />
         <Quiz />
@@ -44,10 +47,8 @@ class App extends Component {
         <LiveChat />
         <Testimonial />
         <Services />
+        <LoginSignup />
         <Footer />
-        <Routes>
-          <Route path="/LoginSignup" element={<LoginSignup />} />
-        </Routes>
       </>
     );
   }
