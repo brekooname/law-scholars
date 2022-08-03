@@ -19,9 +19,9 @@ const LoginSignup = () => {
 
 
     return (
-        <div name="loginsignup" className="w-full h-screen flex flex-col justify-center items-center m-0 bg-[#23a0ee]" >
+        <div name="loginsignup" className="w-full h-screen flex flex-col justify-center items-center m-0 bg-[#23a0ee] ease-in" >
             <div className="container grid md:grid-cols-2 max-w-[1240px] relative w-[800px] h-[500px] m-5">
-                <div className="blueBg">
+                <div className="blueBg absolute flex justify-center items-center top-10 w-full h-[420px] bg-[#ffffff33] shadow-2xl">
                     <div className="box signin">
                         <h2>Already have an Account?</h2>
                         <button className="SignInBtn">Sign in</button>
