@@ -9,7 +9,7 @@ const model = require("./model");
 
 
 router.get("/", function(req, res, next) {
-    model.Quiz.find({},function(err,found){
+    model.Blog.find({},function(err,found){
         res.json(found)
     })
 
