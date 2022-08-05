@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
@@ -35,10 +35,10 @@ class App extends Component {
 
     return (
       <>
-        <Navbar />
         {/* <Routes> */}
           {/* <Route path="/LoginSignup" element={<LoginSignup />} /> */}
         {/* </Routes> */}
+        <Navbar />
         <Hero />
         <About />
         <Quiz />
