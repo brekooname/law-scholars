@@ -44,13 +44,19 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className="hidden md:flex relative bg-slate-200 p-2 border-t-2  border-2 border-[#8d99ae]  m-0">
+            <div className="hidden md:flex relative bg-slate-200 p-4 border-t-2 border-[#d6d6d6] m-0">
                 <svg class="w-5 h-5 left-1 absolute ml-1 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-                <input type="text" placeholder="Search..." className="ml-6 bg-transparent focus:outline-none border-none text-black w-full" />
+                <input type="text" placeholder="Search..." className="px-6 bg-transparent focus:outline-none border-none text-black w-full" />
             </div>
 
 
             <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
+
+                <div className='flex flex-col my-4'>
+                    <svg class="w-5 h-5 left-1 absolute ml-1 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                    <input type="text" placeholder="Search..." className="px-1 bg-transparent focus:outline-none border-none text-black w-full" />
+                </div>
+
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="home" smooth={true} duration={500}>Home</Link></li>
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="quiz" smooth={true} offset={-200} duration={500}>Quiz</Link></li>
