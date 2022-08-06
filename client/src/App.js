@@ -1,4 +1,7 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter, Route, Routes, Redirect } from "react-router-dom";
+
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
@@ -6,12 +9,12 @@ import Registration from "./components/Registration";
 import Blogs from "./components/Blogs";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
-import { Routes, Route } from "react-router-dom";
 import LoginSignup from "./components/LoginSignup";
 import Testimonial from "./components/Testimonial";
 import LiveChat from "./components/LiveChat";
 import Quiz from "./components/Quiz";
 import logo from "./assets/logo.jpg";
+import Profile from "./components/Profile";
 
 class App extends Component {
 
@@ -38,6 +41,20 @@ class App extends Component {
         {/* <Routes> */}
           {/* <Route path="/LoginSignup" element={<LoginSignup />} /> */}
         {/* </Routes> */}
+
+        {/* <BrowserRouter>
+          <Route path='/LoginSignup' element={<LoginSignup />}  />
+          <Route path='/' element={<Hero />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Registration' element={<Registration />} />
+          <Route path='/Blogs' element={<Blogs />} />
+          <Route path='/Services' element={<Services />} />
+          <Route path='/Footer' element={<Footer />} />
+          <Route path='/Testimonial' element={<Testimonial />} />
+          <Route path='/LiveChat' element={<LiveChat />} />
+          <Route path='/Quiz' element={<Quiz />} />
+        </BrowserRouter> */}
+
         <Navbar />
         <Hero />
         <About />
@@ -48,6 +65,7 @@ class App extends Component {
         <Testimonial />
         <Services />
         {/* <LoginSignup /> */}
+        <Profile />
         <Footer />
       </>
     );
