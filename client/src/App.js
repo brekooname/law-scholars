@@ -58,6 +58,8 @@ export default function App() {
           </div>
         } />
         <Route path="/law-scholars" element={<HomePage />} />
+        <Route path="/law-scholars/login" element={<LoginSignup />} />
+        <Route path="/law-scholars/profile" element={<Profile />} />
       </Routes>
 
       {/* Other routes */}
