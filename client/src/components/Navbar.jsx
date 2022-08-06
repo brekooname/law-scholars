@@ -28,22 +28,32 @@ const Navbar = () => {
                         <li className="cursor-pointer hover:text-[#004284]"><Link to="testimonial" smooth={true} offset={-50} duration={500}>Testimonials</Link></li>
                         <li className="cursor-pointer hover:text-[#004284]"><Link to="service" smooth={true} offset={-50} duration={500}>Services</Link></li>
                         {/* <li className="cursor-pointer hover:text-[#004284]"><Link to="loginsignup" smooth={true} offset={-50} duration={500}>Login/SignUp</Link></li> */}
-                        <li className="cursor-pointer hover:text-[#004284]"><Link to="profile" smooth={true} offset={-50} duration={500}>Profile</Link></li>
+                        {/* <li className="cursor-pointer hover:text-[#004284]"><Link to="profile" smooth={true} offset={-50} duration={500}>Profile</Link></li> */}
                     </ul>
                 </div>
 
                 <div className='hidden md:flex pr-4'>
                     {/* <a href="/LoginSignup"> */}
-                    <button className='px-4 py-2 border-none bg-transparent text-black mr-4' onClick={
-                        () => {
-                            window.location.href = "/Profile"
-                        }
-                    }>
+                    <button className='px-4 py-2 border-none bg-transparent text-black mr-4'>
                         Sign In
                     </button>
                     <button className='px-4 py-2 border-none'>Sign Up</button>
                     {/* </a> */}
                 </div>
+
+                {/* Same as above just for reference */}
+                {/* <div className='hidden md:flex pr-4'>
+                    <a href="/LoginSignup">
+                    <button className='px-4 py-2 border-none bg-transparent text-black mr-4' onClick={
+                        () => {
+                            window.location.href = "/loginsignup"
+                        }
+                    }>
+                        Sign In
+                    </button>
+                    <button className='px-4 py-2 border-none'>Sign Up</button>
+                    </a>
+                </div> */}
 
                 <div className='md:hidden mr-4 cursor-pointer' onClick={Clicking}>
                     {!nav ? <MenuIcon className='w-8' /> : <XIcon className='w-8' />}
@@ -72,7 +82,7 @@ const Navbar = () => {
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="testimonial" smooth={true} offset={-50} duration={500}>Testimonial</Link></li>
                 <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="service" smooth={true} offset={-50} duration={500}>Services</Link></li>
                 {/* <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="loginsignup" smooth={true} offset={-50} duration={500}>Login/SignUp</Link></li> */}
-                <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="profile" smooth={true} offset={-50} duration={500}>Profile</Link></li>
+                {/* <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="profile" smooth={true} offset={-50} duration={500}>Profile</Link></li> */}
 
                 <div className='flex flex-col my-4'>
                     <button className='bg-transparent text-blue-500 px-8 py-3 mb-4'>Sign In</button>
