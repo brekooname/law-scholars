@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-
+import logo from '../assets/new-law-scholars.png'
 export default function Index() {
     const [show, setShow] = useState(false);
 
     return (
-        <div className="bg-gray-50">
-            <div className="bg-white xl:hidden flex text-gray-800  hover:text-black focus:outline-none focus:text-black justify-between w-full p-6 items-center ">
-                <button className="flex justify-between  items-center space-x-3 bg-transparent text-black border-none hover:bg-transparent">
-                    <p className="text-2xl leading-6 ">Law Scholars</p>
-                </button>
+        <div name='about' className='w-full my-32'>
+            <div className='max-w-[1240px] mx-auto'>
+                <div className='text-center'>
+                    <h2 className='text-5xl font-bold'>Profile Page</h2>
+                </div>
             </div>
         </div>
     );
