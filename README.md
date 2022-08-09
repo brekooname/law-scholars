@@ -13,7 +13,7 @@ In the root directory of Project you can run:
 ### `cd server`
 This will get us into the server directory. 
 
-### `npm install`
+### `npm install --legacy-peer-deps`
 This will install all the required dependencies and files required for this Project(Server) to run.
 
 ### `npm start`
@@ -30,7 +30,7 @@ In the root directory of Project you can run:
 ### `cd client`
 This will get us into the client directory. 
 
-### `npm install`
+### `npm install --legacy-peer-deps`
 This will install all the required dependencies and files required for this Project(Client) to run.
 
 ### `npm start`
