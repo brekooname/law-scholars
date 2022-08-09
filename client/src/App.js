@@ -15,6 +15,8 @@ import LiveChat from "./components/LiveChat";
 import Quiz from "./components/Quiz";
 import logo from "./assets/logo.jpg";
 import Profile from "./components/Profile";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
 
 const HomePage = () => {
   return (
@@ -76,7 +78,8 @@ export default function App() {
       <Routes>
         <Route path="*" element={<ErrorPage />} />
         <Route path="/law-scholars" element={<HomePage />} />
-        <Route path="/law-scholars/login" element={<LoginSignup />} />
+          <Route path="/login" element = {  <Login />} />
+        <Route path="/signup" element = { <Signup />} />
         <Route path="/law-scholars/profile" element={<Profile />} />
       </Routes>
 
