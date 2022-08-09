@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { Link, animateScroll as scroll, } from 'react-scroll'
+import { Link as LinkPage } from 'react-router-dom'
 
 import { MenuIcon, XIcon } from '@heroicons/react/solid'
 
@@ -33,12 +34,14 @@ const Navbar = () => {
                 </div>
 
                 <div className='hidden md:flex pr-4'>
-                    {/* <a href="/LoginSignup"> */}
-                    <button className='px-4 py-2 border-none bg-transparent text-black mr-4'>
-                        Sign In
-                    </button>
-                    <button className='px-4 py-2 border-none'>Sign Up</button>
-                    {/* </a> */}
+                    <LinkPage to="/law-scholars/login">
+                        <button className='px-4 py-2 border-none bg-transparent text-black mr-4'>
+                            Sign In
+                        </button>
+                    </LinkPage>
+                    <LinkPage to="/law-scholars/signup">
+                        <button className='px-4 py-2 border-none'>Sign Up</button>
+                    </LinkPage>
                 </div>
 
                 {/* Same as above just for reference */}
