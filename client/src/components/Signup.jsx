@@ -31,7 +31,7 @@ class Signup extends Component {
 
   render() {
     return (
-      <div className='mega-container2 text-center'>
+      <div className='mega-container2 text-center p-0 m-0 box-border'>
         <div className='sign-in-card'>
           <h2>Already have an Account?</h2>
           <Link to="/login"><button> Sign in</button> </Link>
