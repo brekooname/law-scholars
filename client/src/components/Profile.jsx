@@ -15,6 +15,7 @@ import {
 
 } from "@fortawesome/free-solid-svg-icons";
 
+
 export default function Profile(props) {
 
     const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -55,6 +56,8 @@ export default function Profile(props) {
                         id="example-navbar-warning"
                     >
                         <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+
+                            {/* TODO: Notification dropdown */}
                             <li className="flex items-center">
                                 <LinkPage to=""
                                     className={
