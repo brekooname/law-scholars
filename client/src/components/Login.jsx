@@ -14,7 +14,7 @@ class Login extends Component {
       password: this.password
     }
 
-    axios.post('http://localhost:8000/login', data).then(
+    axios.post('http://localhost:3000/law-scholars/login', data).then(
       res => {
         localStorage.setItem('token', res.token);
       }
@@ -43,11 +43,12 @@ class Login extends Component {
           </div>
           <div className='sign-up-card'>
             <h2>Don't have an Account?</h2>
-            <Link to="/signup"><button> Sign up </button></Link>
+            <Link to="/law-scholars/signup"><button> Sign up </button></Link>
           </div>
         </div>
       </>
     )
   }
 }
+
 export default Login

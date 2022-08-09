@@ -78,8 +78,8 @@ export default function App() {
       <Routes>
         <Route path="*" element={<ErrorPage />} />
         <Route path="/law-scholars" element={<HomePage />} />
-          <Route path="/login" element = {  <Login />} />
-        <Route path="/signup" element = { <Signup />} />
+          <Route path="/law-scholars/login" element = {  <Login />} />
+        <Route path="/law-scholars/signup" element = { <Signup />} />
         <Route path="/law-scholars/profile" element={<Profile />} />
       </Routes>
 

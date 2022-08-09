@@ -17,7 +17,7 @@ class Signup extends Component {
 
     };
 
-    axios.post('http://localhost:3000/signup', data).then(
+    axios.post('http://localhost:3000/law-scholars/signup', data).then(
       res => {
         console.log(res)
       }
@@ -49,7 +49,7 @@ class Signup extends Component {
               <input type="text" name="password" id="password" placeholder='Confirm Password'
                 onChange={e => this.confirmPassword = e.target.value} />
               <br></br>
-              <Link to="/login"><button className='register-btn'>Register</button></Link><br></br>
+              <Link to="/law-scholars/login"><button className='register-btn'>Register</button></Link><br></br>
               Or sign up with
               <div className='social-media-options'>
                 <div className='google'><FcGoogle /></div>
