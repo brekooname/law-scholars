@@ -3,6 +3,8 @@ import logo from '../assets/new-law-scholars.png'
 
 export default function Profile(props) {
 
+  const [navbarOpen, setNavbarOpen] = React.useState(false);
+
     return (
         <>
             <nav
