@@ -89,10 +89,10 @@ const Navbar = () => {
 
                 <div className='flex flex-col my-4'>
                     <LinkPage to="/law-scholars/login">
-                        <button className='bg-transparent text-blue-500 px-8 py-3 mb-4'>Sign In</button>
+                        <button className='bg-transparent text-blue-500 px-8 py-3 mb-4 w-full'>Sign In</button>
                     </LinkPage>
                     <LinkPage to="/law-scholars/signup">
-                        <button className='px-8 py-3'>Sign Up</button>
+                        <button className='px-8 py-3 w-full'>Sign Up</button>
                     </LinkPage>
                 </div>
 
