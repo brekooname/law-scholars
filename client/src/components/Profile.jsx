@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom'
 
 import logo from '../assets/new-law-scholars.png'
 
+import {
+    FontAwesomeIcon
+} from '@fortawesome/react-fontawesome'
+
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
 export default function Profile(props) {
 
     const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -27,6 +33,13 @@ export default function Profile(props) {
                         >
                             Law Scholars
                         </Link>
+                        <button
+                            className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                            type="button"
+                            onClick={() => setNavbarOpen(!navbarOpen)}
+                        >
+                            <FontAwesomeIcon className="h-6 text-blue-500 mr-2" icon={faBars} />
+                        </button>
                     </div>
                 </div>
             </nav>
