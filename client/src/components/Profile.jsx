@@ -9,6 +9,7 @@ import {
 
 import {
     faBars,
+    faBell,
     faBookmark,
     faRightFromBracket,
 
@@ -55,6 +56,19 @@ export default function Profile(props) {
                     >
                         <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                             <li className="flex items-center">
+                                <LinkPage to=""
+                                    className={
+                                        (props.transparent
+                                            ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                                            : "text-gray-800 hover:text-gray-600") +
+                                        " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                                    }
+                                >
+                                    <FontAwesomeIcon className="h-6 mr-2" icon={faBell} />
+                                    <span className="lg:hidden inline-block ml-2">Notifications</span>
+                                </LinkPage>
+                            </li>
+                            <li className="flex items-center">
                                 <LinkPage to="/law-scholars"
                                     className={
                                         (props.transparent
@@ -64,6 +78,7 @@ export default function Profile(props) {
                                     }
                                 >
                                     <FontAwesomeIcon className="h-6 mr-2" icon={faRightFromBracket} />
+                                    <span className="lg:hidden inline-block ml-2">Log out</span>
                                 </LinkPage>
                             </li>
                         </ul>
