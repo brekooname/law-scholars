@@ -7,12 +7,13 @@
     grid-template-columns: 5rem 1fr 1fr 5rem;
 
 }
-.sign-in-container form{
+
+.sign-in-container form {
     display: grid;
     align-items: flex-end;
 }
 
-.sign-in-container{
+.sign-in-container {
     grid-column: 2/3;
     position: relative;
     margin-top: 4rem ;
@@ -26,7 +27,7 @@
     grid-column: 2/3;
 }
 
-.sign-in-container h1{
+.sign-in-container h1 {
     margin-top: 8rem;
     font-size: 40px;
     font-weight: 300;
@@ -35,7 +36,7 @@
     margin-left: 6rem;
 }
 
-.sign-in-container input{
+.sign-in-container input {
     width: 70%;
     margin-bottom: 1.5rem;
     padding: 0.4rem;
@@ -43,7 +44,7 @@
     border: 1px solid black ;
 }
 
-.login-btn{
+.login-btn {
   padding: 0.9rem;
   width: 160px;
   font-size: 18px;
@@ -55,7 +56,7 @@
   margin-left: -18rem;
 }
 
-.sign-in-container .forget-pass{
+.sign-in-container .forget-pass {
     border:none;
     background-color: white;
     color: blueviolet;
@@ -64,7 +65,7 @@
     margin-left: -21rem;
 }
 
-.sign-up-card{
+.sign-up-card {
     display: flex;
     position: absolute;
     display: flex;
@@ -81,14 +82,14 @@
 
 }
 
-.sign-up-card h2{
+.sign-up-card h2 {
    color: white;
    font-weight: 300;
    margin-top: 10rem;
    margin-bottom: 1rem;
 }
 
-.sign-up-card button{
+.sign-up-card button {
     padding: 0.3rem;
     width: 5rem;
     border-radius: 10px;
@@ -99,27 +100,6 @@
     
 }
 
-a{
+a {
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
