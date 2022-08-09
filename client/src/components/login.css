@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.mega-container {
+    background-color:dodgerblue;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 5rem 1fr 1fr 5rem;
+
+}
+.sign-in-container form{
+    display: grid;
+    align-items: flex-end;
+}
+
+.sign-in-container{
+    grid-column: 2/3;
+    position: relative;
+    margin-top: 4rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 650px;
+    background-color: white;
+    height: 600px;
+    box-shadow: 0px 4px 8px 0 rgba(0.2,0.5,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+    grid-column: 2/3;
+}
+
+.sign-in-container h1{
+    margin-top: 8rem;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    text-align: left;
+    margin-left: 6rem;
+}
+
+.sign-in-container input{
+    width: 70%;
+    margin-bottom: 1.5rem;
+    padding: 0.4rem;
+    outline: none;
+    border: 1px solid black ;
+}
+
+
+
+
+
+.login-btn{
+  padding: 0.9rem;
+  width: 160px;
+  font-size: 18px;
+  margin-bottom: 2rem;
+  border: none;
+  color: white;
+  background-color: dodgerblue;
+  cursor: pointer;
+  margin-left: -18rem;
+}
+
+.sign-in-container .forget-pass{
+    border:none;
+    background-color: white;
+    color: blueviolet;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: -21rem;
+}
+
+
+.sign-up-card{
+    display: flex;
+    position: absolute;
+    display: flex;
+    margin-top: 10rem;
+    flex-direction: column;
+    width: 650px;
+    background-color: white;
+    min-height: 400px;
+    box-shadow: 0px 4px 8px 0 rgba(0.2,0.5,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(45, 191, 240);
+    grid-column: 3/4;
+
+}
+
+.sign-up-card h2{
+   color: white;
+   font-weight: 300;
+   margin-top: 10rem;
+   margin-bottom: 1rem;
+}
+
+.sign-up-card button{
+    padding: 0.3rem;
+    width: 5rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
