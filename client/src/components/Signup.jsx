@@ -34,7 +34,7 @@ class Signup extends Component {
       <div className='mega-container2 text-center p-0 m-0 box-border'>
         <div className='sign-in-card'>
           <h2>Already have an Account?</h2>
-          <Link to="/login"><button> Sign in</button> </Link>
+          <Link to="/law-scholars/login"><button> Sign in</button> </Link>
         </div>
         <div className='sign-up-container' >
           <form action='' onSubmit={this.handleSubmit}>
