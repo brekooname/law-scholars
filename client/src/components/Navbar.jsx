@@ -88,8 +88,12 @@ const Navbar = () => {
                 {/* <li className='border-b-2 border-zinc-300 w-full cursor-pointer hover:text-blue-500'><Link onClick={Closing} to="profile" smooth={true} offset={-50} duration={500}>Profile</Link></li> */}
 
                 <div className='flex flex-col my-4'>
-                    <button className='bg-transparent text-blue-500 px-8 py-3 mb-4'>Sign In</button>
-                    <button className='px-8 py-3'>Sign Up</button>
+                    <LinkPage to="/law-scholars/login">
+                        <button className='bg-transparent text-blue-500 px-8 py-3 mb-4'>Sign In</button>
+                    </LinkPage>
+                    <LinkPage to="/law-scholars/signup">
+                        <button className='px-8 py-3'>Sign Up</button>
+                    </LinkPage>
                 </div>
 
             </ul>
