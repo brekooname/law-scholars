@@ -267,7 +267,7 @@ export default function Profile(props) {
                             <h5 className="text-lg mt-0 mb-2 text-gray-700">
                                 Find us on any of these platforms, and make sure to follow.
                             </h5>
-                            <div className="mt-6">
+                            <div className="mt-6 xsm:ml-[45px]">
                                 <button
                                     className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                                     type="button"
