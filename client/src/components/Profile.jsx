@@ -207,7 +207,7 @@ export default function Profile(props) {
                                         <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text-lg text-gray-500"></FontAwesomeIcon>
                                         Patna, Bihar
                                     </div>
-                                    <div className="mb-2 text-gray-700 mt-10">
+                                    <div className="mt-0 mb-2 text-gray-700">
                                         <FontAwesomeIcon icon={faBriefcase} className="mr-2 text-lg text-gray-500"></FontAwesomeIcon>
                                         Freelance Writer &amp; Blogger
                                     </div>
@@ -216,7 +216,26 @@ export default function Profile(props) {
                                         Hidayatullah National Law University, Raipur
                                     </div>
                                 </div>
-
+                                <div className="mt-10 py-10 border-t border-gray-300 text-center">
+                                    <div className="flex justify-center font-bold">
+                                        Favourite Quote
+                                    </div>
+                                    <div className="flex flex-wrap justify-center mt-2">
+                                        <div className="w-full lg:w-9/12 px-4">
+                                            <p className="mb-4 text-lg leading-relaxed text-gray-800">
+                                                For everyone who asks receives, and everyone who searches finds, and for everyone who knocks, the door will be opened.<br />
+                                                So if you sinful people know how to give good gifts to your children, how much more will your heavenly Father give good gifts to those who ask him.
+                                            </p>
+                                            <a
+                                                href="#"
+                                                className="font-normal text-pink-500"
+                                                onClick={e => e.preventDefault()}
+                                            >
+                                                Show more
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
