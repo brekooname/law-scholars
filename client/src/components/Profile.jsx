@@ -155,8 +155,8 @@ export default function Profile(props) {
                                             <img
                                                 alt="..."
                                                 src={'https://source.unsplash.com/random/?portrait'}
-                                                className="shadow-xl rounded-full h-[200px] w-[200px] align-middle border-none absolute xsm:ml-[-108px] -m-16 -ml-20 lg:-ml-16"
-                                                style={{ maxWidth: "200px" }}
+                                                className="shadow-xl rounded-full h-[200px] w-[200px] align-middle border-none absolute xsm:ml-[-108px] -m-16 -ml-20 lg:-ml-[100px]"
+                                                style={{ maxWidth: "190px" }}
                                             />
                                         </div>
                                     </div>
@@ -292,6 +292,20 @@ export default function Profile(props) {
                         </div>
                         <div className="w-full lg:w-6/12 px-4">
                             <div className="flex flex-wrap items-top mb-6">
+                            </div>
+                        </div>
+                    </div>
+                    <hr className="my-6 border-gray-400" />
+                    <div className="flex flex-wrap items-center md:justify-between justify-center">
+                        <div className="w-full md:w-4/12 px-4 mx-auto text-center">
+                            <div className="text-sm text-gray-600 font-semibold py-1">
+                                Copyright © {new Date().getFullYear()}{" "}{" "}
+                                <a
+                                    href="/law-scholars"
+                                    className="text-gray-600 hover:text-gray-900"
+                                >
+                                    Law Scholars
+                                </a>.
                             </div>
                         </div>
                     </div>
