@@ -176,6 +176,12 @@ export default function Profile(props) {
                                                 </span>
                                                 <span className="text-sm text-gray-500">Followers</span>
                                             </div>
+                                            <div className="mr-4 p-3 text-center">
+                                                <span className="text-xl font-bold block uppercase tracking-wide text-gray-700">
+                                                    17
+                                                </span>
+                                                <span className="text-sm text-gray-500">Blogs</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
