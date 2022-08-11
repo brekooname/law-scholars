@@ -105,6 +105,8 @@ export default function Profile(props) {
 
             {/* TODO: Add main section for Profile information */}
             <main className="profile-page">
+
+                {/* Background Image */}
                 <section className="relative block" style={{ height: "500px" }}>
                     <div
                         className="absolute top-0 w-full h-full bg-center bg-cover"
@@ -117,6 +119,47 @@ export default function Profile(props) {
                             id="blackOverlay"
                             className="w-full h-full absolute opacity-50 bg-black"
                         ></span>
+                    </div>
+                    <div
+                        className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+                        style={{ height: "70px" }}
+                    >
+                        <svg
+                            className="absolute bottom-0 overflow-hidden"
+                            xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            version="1.1"
+                            viewBox="0 0 2560 100"
+                            x="0"
+                            y="0"
+                        >
+                            <polygon
+                                className="text-gray-300 fill-current"
+                                points="2560 0 2560 100 0 100"
+                            ></polygon>
+                        </svg>
+                    </div>
+                </section>
+
+                {/* Profile Picture */}
+                <section className="relative py-16 bg-gray-300">
+                    <div className="container mx-auto px-4">
+                        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64">
+                            <div className="px-6">
+                                <div className="flex flex-wrap justify-center">
+                                    <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
+                                        <div className="relative">
+                                            <img
+                                                alt="..."
+                                                src={'https://source.unsplash.com/random/?portrait'}
+                                                className="shadow-xl rounded-full h-[200px] w-[200px] align-middle border-none absolute xsm:ml-[-108px] -m-16 -ml-20 lg:-ml-16"
+                                                style={{ maxWidth: "200px" }}
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </main>
