@@ -11,8 +11,16 @@ import {
 import {
     faBars,
     faBell,
+    faBriefcase,
+    faBriefcaseClock,
     faGear,
+    faMap,
+    faMapLocation,
+    faMapMarked,
+    faMapMarker,
+    faMapMarkerAlt,
     faRightFromBracket,
+    faUniversity,
 
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -196,18 +204,19 @@ export default function Profile(props) {
                                         Ranjan Sharma
                                     </h3>
                                     <div className="text-sm leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase">
-                                        <i className="fas fa-map-marker-alt mr-2 text-lg text-gray-500"></i>{" "}
+                                        <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text-lg text-gray-500"></FontAwesomeIcon>
                                         Patna, Bihar
                                     </div>
                                     <div className="mb-2 text-gray-700 mt-10">
-                                        <i className="fas fa-briefcase mr-2 text-lg text-gray-500"></i>
+                                        <FontAwesomeIcon icon={faBriefcase} className="mr-2 text-lg text-gray-500"></FontAwesomeIcon>
                                         Freelance Writer &amp; Blogger
                                     </div>
                                     <div className="mb-2 text-gray-700">
-                                        <i className="fas fa-university mr-2 text-lg text-gray-500"></i>
-                                        HNLU, Raipur
+                                        <FontAwesomeIcon icon={faUniversity} className="mr-2 text-lg text-gray-500"></FontAwesomeIcon>
+                                        Hidayatullah National Law University, Raipur
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
