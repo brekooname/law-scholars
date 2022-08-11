@@ -17,6 +17,7 @@ import {
     faUniversity,
 
 } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faInstagram, faTwitch, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 
 export default function Profile(props) {
@@ -262,6 +263,36 @@ export default function Profile(props) {
                             <h4 className="text-3xl font-semibold">
                                 Let's keep in touch!
                             </h4>
+                            <h5 className="text-lg mt-0 mb-2 text-gray-700">
+                                Find us on any of these platforms, and make sure to follow.
+                            </h5>
+                            <div className="mt-6">
+                                <button
+                                    className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                                    type="button"
+                                >
+                                    <FontAwesomeIcon icon={faTwitter}
+                                    ></FontAwesomeIcon>
+                                </button>
+                                <button
+                                    className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                                    type="button"
+                                >
+                                    <FontAwesomeIcon icon={faFacebook}
+                                    ></FontAwesomeIcon>
+                                </button>
+                                <button
+                                    className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                                    type="button"
+                                >
+                                    <FontAwesomeIcon icon={faInstagram}
+                                    ></FontAwesomeIcon>
+                                </button>
+                            </div>
+                        </div>
+                        <div className="w-full lg:w-6/12 px-4">
+                            <div className="flex flex-wrap items-top mb-6">
+                            </div>
                         </div>
                     </div>
                 </div>
