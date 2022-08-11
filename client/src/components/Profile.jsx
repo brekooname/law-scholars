@@ -203,6 +203,10 @@ export default function Profile(props) {
                                         <i className="fas fa-briefcase mr-2 text-lg text-gray-500"></i>
                                         Freelance Writer &amp; Blogger
                                     </div>
+                                    <div className="mb-2 text-gray-700">
+                                        <i className="fas fa-university mr-2 text-lg text-gray-500"></i>
+                                        HNLU, Raipur
+                                    </div>
                                 </div>
                             </div>
                         </div>
