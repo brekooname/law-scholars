@@ -199,6 +199,10 @@ export default function Profile(props) {
                                         <i className="fas fa-map-marker-alt mr-2 text-lg text-gray-500"></i>{" "}
                                         Patna, Bihar
                                     </div>
+                                    <div className="mb-2 text-gray-700 mt-10">
+                                        <i className="fas fa-briefcase mr-2 text-lg text-gray-500"></i>
+                                        Freelance Writer &amp; Blogger
+                                    </div>
                                 </div>
                             </div>
                         </div>
