@@ -39,6 +39,195 @@ const Quiz = () => {
                 { answerText: '511', isCorrect: true },
             ],
         },
+        {
+            questionText: "The offense of theft becomes robbery when it is: ",
+            answerOptions: [
+                {
+                    answerText: " Coupled with force",
+                    isCorrect: false
+                },
+                {
+                    answerText: " Coupled with imminent danger to life.",
+                    isCorrect: true
+                },
+                {
+                    answerText: " Committed by five or more persons",
+                    isCorrect: false
+                },
+                {
+                    answerText: " Committed by two or more but less than five persons",
+                    isCorrect: false
+                }
+            ],
+        },
+        {
+            questionText: " A obtains property from B by saying that “your child is in the hands of my gang and will be put to death unless you send us ten lac rupees”. A commits...",
+            answerOptions: [
+                {
+                    answerText: "Criminal breach of trust",
+                    isCorrect: false
+                },
+                {
+                    answerText: "Robbery",
+                    isCorrect: false
+                },
+                {
+                    answerText: "Extortion",
+                    isCorrect: true
+                },
+                {
+                    answerText: "Theft",
+                    isCorrect: false
+                }
+            ],
+        },
+        {
+            questionText: "Which one of the following statements correctly defines the offense of criminal breach of trust? ",
+            answerOptions: [
+                {
+                    answerText: " Whoever dishonestly misappropriated any property for his own use, is guilty of criminal breach of trust",
+                    isCorrect: false
+                },
+                {
+                    answerText: "  Whoever is entrusted with the dominion of property dishonestly converts it as his property is guilty of criminal breach of trust.",
+                    isCorrect: true
+                },
+                {
+                    answerText: "Whoever uses any movable property in violation of law or legal contract commits criminal breach of trust.",
+                    isCorrect: false
+                },
+                {
+                    answerText: "None of the above.",
+                    isCorrect: false
+                }
+            ],
+        },
+        {
+            questionText: "The offense of theft becomes robbery when it is: ",
+            answerOptions: [
+                {
+                    answerText: " Coupled with force",
+                    isCorrect: false
+                },
+                {
+                    answerText: " Coupled with imminent danger to life.",
+                    isCorrect: true
+                },
+                {
+                    answerText: " Committed by five or more persons",
+                    isCorrect: false
+                },
+                {
+                    answerText: " Committed by two or more but less than five persons",
+                    isCorrect: false
+                }
+            ],
+        },
+        {
+            questionText: "Which one of the following is associated with Common intention?",
+            answerOptions: [
+                {
+                    answerText: "  Similar intention",
+                    isCorrect: false
+                },
+                {
+                    answerText: " Premeditated concert",
+                    isCorrect: false
+                },
+                {
+                    answerText: " Same intention",
+                    isCorrect: false
+                },
+                {
+                    answerText: " Unanimous decision in a meeting to do a particular act",
+                    isCorrect: true
+                }
+            ],
+        },
+        {
+            questionText: "When a criminal act is done by several persons in furtherance of the common intention of all each one of them is liable: ",
+            answerOptions: [
+                {
+                    answerText: "For an attempt to commit the act",
+                    isCorrect: false
+                },
+                {
+                    answerText: " Only for the part, each one has done",
+                    isCorrect: false
+                },
+                {
+                    answerText: "  For an abetment to commit the act",
+                    isCorrect: false
+                },
+                {
+                    answerText: " As if it was done by each one of them in a singular capacity",
+                    isCorrect: true
+                }
+            ],
+        },
+        {
+            questionText: "The principle of proximity to the crime under criminal law is irrelevant while deciding the homicide and murder: ",
+            answerOptions: [
+                {
+                    answerText: " Kidnapping and abduction",
+                    isCorrect: false
+                },
+                {
+                    answerText: " Theft and dacoity",
+                    isCorrect: false
+                },
+                {
+                    answerText: " Abetment and conspiracy ",
+                    isCorrect: true
+                },
+                {
+                    answerText: "  Culpable homicide and murder",
+                    isCorrect: false
+                }
+            ],
+        },
+        {
+            questionText: "Which one of the following statements correctly distinguishes theft from extortion?",
+            answerOptions: [
+                {
+                    answerText: "In extortion, there is dishonest intention whereas in theft it is not there.",
+                    isCorrect: false
+                },
+                {
+                    answerText: "  In theft, there is dishonest intention whereas in extortion it is not there.",
+                    isCorrect: false
+                },
+                {
+                    answerText: " In theft, there is taking of property whereas in extortion there is the delivery of property. ",
+                    isCorrect: true
+                },
+                {
+                    answerText: " In theft, there is dishonest intention, whereas in extortion it is fraudulent intention.",
+                    isCorrect: false
+                }
+            ],
+        },
+        {
+            questionText: "If Actus non facit reum nisi mens sit rea is a cardinal principle of criminal law, then which one of the following statements correctly reflects the above principle? ",
+            answerOptions: [
+                {
+                    answerText: " CTo constitute a crime there must be actus reus and mens rea",
+                    isCorrect: true
+                },
+                {
+                    answerText: " Mens rea is an essential element of a crime and there cannot be a crime without mens rea.",
+                    isCorrect: false
+                },
+                {
+                    answerText: " Criminal liability under Indian Law always implies mens rea",
+                    isCorrect: false
+                },
+                {
+                    answerText: "  None of the Above.",
+                    isCorrect: false
+                }
+            ],
+        }
     ];
 
     const [currentQuestion, setCurrentQuestion] = useState(0);
