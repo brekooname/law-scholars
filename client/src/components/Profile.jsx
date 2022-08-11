@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link as LinkPage } from 'react-router-dom'
 
 import logo from '../assets/new-law-scholars.png'
+import pp from '../assets/new-logo.png'
 
 import {
     FontAwesomeIcon
@@ -10,7 +11,6 @@ import {
 import {
     faBars,
     faBell,
-    faBookmark,
     faGear,
     faRightFromBracket,
 
@@ -23,7 +23,7 @@ export default function Profile(props) {
 
     return (
         <>
-            <nav
+            <nav transparent
                 className={
                     (props.transparent
                         ? "top-0 absolute z-50 w-full"
@@ -102,6 +102,25 @@ export default function Profile(props) {
                     </div>
                 </div>
             </nav>
+
+            {/* TODO: Add main section for Profile information */}
+            <main className="profile-page">
+                <section className="relative block" style={{ height: "500px" }}>
+                    <div
+                        className="absolute top-0 w-full h-full bg-center bg-cover"
+                        style={{
+                            backgroundImage:
+                                "url('https://source.unsplash.com/random/?landscape')"
+                        }}
+                    >
+                        <span
+                            id="blackOverlay"
+                            className="w-full h-full absolute opacity-50 bg-black"
+                        ></span>
+                    </div>
+                </section>
+            </main>
+
         </>
     );
 }
