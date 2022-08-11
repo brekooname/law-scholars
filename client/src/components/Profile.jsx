@@ -191,6 +191,11 @@ export default function Profile(props) {
                                         </div>
                                     </div>
                                 </div>
+                                <div className="text-center mt-12">
+                                    <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-800 text-center">
+                                        Ranjan Sharma
+                                    </h3>
+                                </div>
                             </div>
                         </div>
                     </div>
