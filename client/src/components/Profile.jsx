@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link as LinkPage } from 'react-router-dom'
 
 import logo from '../assets/new-law-scholars.png'
-import pp from '../assets/new-logo.png'
 
 import {
     FontAwesomeIcon
@@ -12,12 +11,7 @@ import {
     faBars,
     faBell,
     faBriefcase,
-    faBriefcaseClock,
     faGear,
-    faMap,
-    faMapLocation,
-    faMapMarked,
-    faMapMarker,
     faMapMarkerAlt,
     faRightFromBracket,
     faUniversity,
