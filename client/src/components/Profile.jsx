@@ -11,6 +11,7 @@ import {
     faBars,
     faBell,
     faBookmark,
+    faGear,
     faRightFromBracket,
 
 } from "@fortawesome/free-solid-svg-icons";
@@ -38,7 +39,7 @@ export default function Profile(props) {
                                 " text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
                             }
                         >
-                            <img src={logo} alt="" className="h-20 mr-4 ml-4 cursor-pointer"/>
+                            <img src={logo} alt="Law Scholars Logo" className="h-20 mr-4 ml-4 cursor-pointer" />
                         </LinkPage>
                         <button
                             className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -69,6 +70,19 @@ export default function Profile(props) {
                                 >
                                     <FontAwesomeIcon className="h-6 mr-2" icon={faBell} />
                                     <span className="lg:hidden inline-block ml-2">Notifications</span>
+                                </LinkPage>
+                            </li>
+                            <li className="flex items-center">
+                                <LinkPage to=""
+                                    className={
+                                        (props.transparent
+                                            ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                                            : "text-gray-800 hover:text-gray-600") +
+                                        " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                                    }
+                                >
+                                    <FontAwesomeIcon className="h-6 mr-2" icon={faGear} />
+                                    <span className="lg:hidden inline-block ml-2">Settings</span>
                                 </LinkPage>
                             </li>
                             <li className="flex items-center">
