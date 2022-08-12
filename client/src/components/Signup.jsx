@@ -32,9 +32,11 @@ class Signup extends Component {
   render() {
     return (
       <div className='mega-container2 text-center p-0 m-0 box-border'>
-        <div className='sign-in-card'>
-          <h2>Already have an Account?</h2>
-          <Link to="/law-scholars/login"><button> Sign in</button> </Link>
+        <div className='sign-in-card absolute flex justify-center items-center top-10 w-full h-[420px] bg-[#ffffff33] shadow-2xl'>
+          <div className='box signin'>
+            <h2>Already have an Account?</h2>
+            <Link to="/law-scholars/login"><button className='SignInBtn'> Sign in</button> </Link>
+          </div>
         </div>
         <div className='sign-up-container' >
           <form action='' onSubmit={this.handleSubmit}>
