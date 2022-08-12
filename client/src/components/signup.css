@@ -116,3 +116,13 @@ a {
 .facebook {
     cursor: pointer;
 }
+
+@media (max-width: 991px) {
+    .mega-container2 {
+        max-width: 400px;
+        height: 650px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
