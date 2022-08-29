@@ -1,4 +1,4 @@
-/* .mega-container2 {
+.mega-container2 {
     background-color: red;
     height: 100vh;
     width: 100%;
@@ -63,9 +63,9 @@
     text-decoration: underline;
     cursor: pointer;
     margin-left: -21rem;
-} */
+}
 
-/* .sign-in-card {
+.sign-in-card {
     display: flex;
     position: absolute;
     display: flex;
@@ -79,9 +79,9 @@
     justify-content: start;
     background-color: rgb(230, 114, 134);
     grid-column: 2/3;
-} */
+}
 
-/* .sign-in-card h2 {
+.sign-in-card h2 {
     color: white;
     font-weight: 300;
     margin-top: 10rem;
@@ -124,4 +124,4 @@ a {
         justify-content: center;
         align-items: center;
     }
-} */
+}

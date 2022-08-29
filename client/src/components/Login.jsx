@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-// import './login.css';
+import './login.css';
 
 
 class Login extends Component {
@@ -26,7 +26,7 @@ class Login extends Component {
   render() {
     return (
       <>
-        <div className='container text-center p-0 m-0 box-border'>
+        <div className='mega-container text-center p-0 m-0 box-border'>
           <div className='sign-in-container'>
             <form action='' onSubmit={this.handleSubmit}>
               <div>
