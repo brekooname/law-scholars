@@ -3,7 +3,7 @@ import axios from 'axios';
 import { FcGoogle } from "react-icons/fc";
 import { MdFacebook } from "react-icons/md";
 import { Link } from 'react-router-dom'
-import './signup.css'
+// import './signup.css'
 
 class Signup extends Component {
 
@@ -28,13 +28,15 @@ class Signup extends Component {
     )
   }
 
-
   render() {
+
+    const SignInBtn = document.querySelector('.SignInBtn')
+
     return (
-      <div className='mega-container2 text-center p-0 m-0 box-border'>
+      <div className='container m-0 box-border flex flex-col items-center justify-center h-full bg-[#23a0ee] ease-in duration-500'>
         <div className='sign-in-card absolute flex justify-center items-center top-10 w-full h-[420px] bg-[#ffffff33] shadow-2xl'>
-          <div className='box signin'>
-            <h2>Already have an Account?</h2>
+          <div className='box signin relative w-1/2 h-full flex justify-center items-center flex-col'>
+            <h2 className='text-[#000] '>Already have an Account?</h2>
             <Link to="/law-scholars/login"><button className='SignInBtn'> Sign in</button> </Link>
           </div>
         </div>
