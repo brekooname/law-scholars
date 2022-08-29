@@ -28,15 +28,13 @@ const Navbar = () => {
                         <li className="cursor-pointer hover:text-[#004284]"><Link to="livechat" smooth={true} offset={-50} duration={500}>Discussion</Link></li>
                         <li className="cursor-pointer hover:text-[#004284]"><Link to="testimonial" smooth={true} offset={-50} duration={500}>Testimonials</Link></li>
                         <li className="cursor-pointer hover:text-[#004284]"><Link to="service" smooth={true} offset={-50} duration={500}>Services</Link></li>
-                        {/* <li className="cursor-pointer hover:text-[#004284]"><Link to="loginsignup" smooth={true} offset={-50} duration={500}>Login/SignUp</Link></li> */}
-                        {/* <li className="cursor-pointer hover:text-[#004284]"><Link to="profile" smooth={true} offset={-50} duration={500}>Profile</Link></li> */}
                     </ul>
                 </div>
 
                 <div className='hidden md:flex pr-4'>
                     <LinkPage to="/law-scholars/login">
                         <button className='px-4 py-2 border-none bg-transparent text-black mr-4'>
-                            Sign In
+                            Login
                         </button>
                     </LinkPage>
                     <LinkPage to="/law-scholars/signup">
@@ -89,7 +87,7 @@ const Navbar = () => {
 
                 <div className='flex flex-col my-4'>
                     <LinkPage to="/law-scholars/login">
-                        <button className='bg-transparent text-blue-500 px-8 py-3 mb-4 w-full'>Sign In</button>
+                        <button className='bg-transparent text-blue-500 px-8 py-3 mb-4 w-full'>Login</button>
                     </LinkPage>
                     <LinkPage to="/law-scholars/signup">
                         <button className='px-8 py-3 w-full'>Sign Up</button>
