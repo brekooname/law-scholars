@@ -26,7 +26,7 @@ class Login extends Component {
   render() {
     return (
       <>
-        <div className='mega-container text-center p-0 m-0 box-border'>
+        <div className='container text-center p-0 m-0 box-border'>
           <div className='sign-in-container'>
             <form action='' onSubmit={this.handleSubmit}>
               <div>
